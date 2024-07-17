@@ -33,7 +33,7 @@
 		"infocus_bgcolor_override" 		"blank" //"46 43 42 255"
 		"outoffocus_bgcolor_override" 	"blank" //"46 43 42 255"
 		
-		"item_xpos_offcenter_a"	"-310"
+		"item_xpos_offcenter_a"	"-305"
 		"item_xpos_offcenter_b"	"165"
 		"item_ypos"		"60"
 		"item_ydelta"	"75"
@@ -193,11 +193,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"c-135"
+		"xpos"			"cs-0.5"
 		"ypos"			"20"
 		"zpos"			"-1"		
-		"wide"			"270"
-		"tall"			"340"
+		"wide"			"330"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -212,9 +212,9 @@
 			"angles_x" "0"
 			"angles_y" "170"
 			"angles_z" "0"
-			"origin_x" "150"
+			"origin_x" "180"
 			"origin_y" "0"
-			"origin_z" "-48" //height
+			"origin_z" "-30" //height
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
