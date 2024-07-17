@@ -33,7 +33,7 @@
 
 	"MapNameLabel"
 	{
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"MapNameLabel"
 		"xpos"		"5"
 		"ypos"		"-1"
@@ -43,7 +43,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"%title_token%"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallest"
+		"font"			"futura-book-14"
 		"textinsetx"	"20"
 		"use_proportional_insets"	"1"
 		

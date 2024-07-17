@@ -6,38 +6,70 @@
 	{
 		"fieldName"		"ExpandableList"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1001"
 		"wide"			"280"
-		"tall"			"f70"
+		"tall"			"480"
 		"visible"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"OrangeBorder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OrangeBorder"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"480"
+		"visible"		"1"
+		
+		"fillcolor"		"loop_primary"
+		"PaintBackgroundType"	"0"
+		"proportionaltoparent"	"1"
+	}
+	"BGPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"noise_basic_black"
 		"proportionaltoparent"	"1"
 	}
 
 	"Title"
 	{
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"xpos"		"8"
-		"ypos"		"20"
+		"xpos"		"0"
+		"ypos"		"46"
 		"zpos"		"99"
 		"wide"		"f0"
-		"tall"		"20"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
+		"tall"		"30"
 		
+		"labeltext"			"#TF_Matchmaking_HeaderModeSelect"
+		"textAlignment"		"center"
+		"font"				"futura-heavy-30"
+		"fgcolor_override"	"loop_primary"
+		
+		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}
+
 
 	"playlist"
 	{
 	//	"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
 		"xpos"			"8"
-		"ypos"			"50"
+		"ypos"			"90"
 		"zpos"			"100"
 		"wide"			"255"
 		"tall"			"365"

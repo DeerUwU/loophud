@@ -10,7 +10,7 @@
 		"proportionaltoparent"	"1"
 
 		"collapsed_height"	"57"
-		"resize_time"	"0.2"
+		"resize_time"		"0.2"
 	
 	}
 
@@ -74,17 +74,16 @@
 			"command"		"toggle_collapse"
 			"labeltext"		"#TF_Casual_ViewMaps"
 			"textAlignment"	"west"
-			"font"	"MMenuPlayListDesc"
-			"textinsetx"	"40"
+			"font"	"futura-book-10"
+			"textinsetx"	"50"
 
 			"stay_armed_on_click"	"1"
 
 			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"235 226 202 20"
-
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"LightOrange"
-			"selectedBGColor_override" "Orange"
+			"defaultBgColor_override"	"loop_black"
+			"armedBgColor_override"		"loop_primary"
+			"selectedBGColor_override" 	"loop_primary"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -157,7 +156,7 @@
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
+			"font"			"futura-heavy-14"
 			"textAlignment"	"east"
 			
 			
@@ -165,7 +164,7 @@
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 
-			"fgcolor"		"TanLight"
+			"fgcolor"		"loop_offwhite"
 		}	
 
 		"TitleShadow"
@@ -182,7 +181,7 @@
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
+			"font"			"futura-heavy-14"
 			"textAlignment"	"east"
 			
 			
@@ -190,14 +189,14 @@
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 
-			"fgcolor_override"		"Black"
+			"fgcolor_override"		"loop_black"
 		}
 
 		"DescLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"MMenuPlayListDesc"
+			"font"			"futura-book-10"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
 			"xpos"			"rs1-5"
@@ -205,8 +204,6 @@
 			"zpos"			"2"
 			"wide"			"120"
 			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -220,7 +217,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabelShadow"
-			"font"			"MMenuPlayListDesc"
+			"font"			"futura-book-10"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
 			"xpos"			"rs1-4"
@@ -228,8 +225,6 @@
 			"zpos"			"1"
 			"wide"			"120"
 			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -249,7 +244,7 @@
 		"zpos"			"1"
 		"wide"			"p1.5"
 		"tall"			"1000"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"InnerShadowBorder"
 		"proportionaltoparent"	"1"
@@ -269,6 +264,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
+		"paintBorder"	"0"
 		"border"		"InnerShadowBorder"
 
 		"pinCorner"		"2"

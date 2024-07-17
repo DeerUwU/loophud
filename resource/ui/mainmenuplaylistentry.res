@@ -25,7 +25,7 @@
 		"zpos"			"1000"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"InnerShadowBorderThin"
 		"proportionaltoparent"	"1"
@@ -87,7 +87,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ModeButton"
 		"xpos"			"rs1-6"
-		"ypos"			"2"
+		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"122"
 		"tall"			"15"
@@ -104,9 +104,10 @@
 		"proportionaltoparent" "1"
 		"actionsignallevel"	"2"
 
-		//"border_default"	"MainMenuMiniButtonDefault"
-		//"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"1"
+		"border_default"	"noise_basic_black"
+		"border_armed"		"noise_basic_orange"
+
+		"paintbackground"	"0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -147,7 +148,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"autoResize"	"1"
-			"pinCorner"		"0"
 			"proportionaltoparent"	"1"
 
 			"paintbackground"	"0"
@@ -158,7 +158,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
-		"font"			"MMenuPlayListDesc"
+		"font"			"futura-book-10"
 		"labelText"		"%desc_token%"
 		"textAlignment"	"north-west"
 		"xpos"			"rs1"
@@ -166,12 +166,10 @@
 		"zpos"			"2"
 		"wide"			"125"
 		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "loop_offwhite"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}
@@ -180,7 +178,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabelShadow"
-		"font"			"MMenuPlayListDesc"
+		"font"			"futura-book-10"
 		"labelText"		"%desc_token%"
 		"textAlignment"	"north-west"
 		"xpos"			"rs1+1"
@@ -193,7 +191,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Black"
+		"fgcolor_override" "loop_black"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}

@@ -6,11 +6,42 @@
 	{
 		"fieldName"		"MVMModeSelect"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1002"
 		"wide"			"270"
-		"tall"			"f70"
+		"tall"			"480"
 		"visible"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"OrangeBorder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OrangeBorder"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"480"
+		"visible"		"1"
+		
+		"fillcolor"		"loop_primary"
+		"PaintBackgroundType"	"0"
+		"proportionaltoparent"	"1"
+	}
+
+	"BGPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"border"		"noise_basic_black"
 		"proportionaltoparent"	"1"
 	}
 
@@ -19,7 +50,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMLogoImage"
 		"xpos"			"30"
-		"ypos"			"-5"
+		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"o2"
 		"tall"			"100"
@@ -35,7 +66,7 @@
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpGroupBox"
 		"xpos"		"6"
-		"ypos"		"55"
+		"ypos"		"65"
 		"zpos"		"1"
 		"wide"		"250"
 		"tall"		"215"
@@ -51,7 +82,7 @@
 			"zpos"			"101"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
@@ -75,68 +106,13 @@
 			"proportionaltoparent"	"1"
 		}
 
-		"Gradient"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"Gradient"
-			"xpos"		"0"
-			"ypos"		"rs1"
-			"wide"		"f0"
-			"tall"		"100"
-			"zpos"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"rotation"		"0"
-			"proportionaltoparent"	"1"
-			"scaleimage"	"1"
-			"mouseinputenabled"	"0"
-			"alpha"		"255"
-
-			"image"		"gradient_pure_black"
-		}
-
-		"PlayNowButton"
-		{
-			//"ControlName"	"CExButton"
-			"fieldName"		"PlayNowButton"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-5"
-			"zpos"			"20"
-			"wide"			"120"
-			"tall"			"25"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"#TF_MvM_MannUp"
-			"font"			"HudFontMediumSmallBold"
-			"textAlignment"	"center"
-			
-			
-			"Command"		"mannup"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-
-			"NavUp"			"Sheet"
-			"NavDown"		"BackButton"
-			"NavLeft"		"Sheet"
-			"NavRight"		"PracticeButton"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-			"depressedFgColor_override" "TanLight"
-		}
 
 		"PlayForBraggingRightsExplanation"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayForBraggingRightsExplanation"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"TanLight"
+			"font"			"futura-book-14"
+			"fgcolor_override"	"loop_offwhite"
 			"labelText"		"#TF_MvM_BraggingRightsExplaination"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"
@@ -148,6 +124,30 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
+
+		"PlayNowButton"
+		{
+			//"ControlName"	"CExButton"
+			"fieldName"		"PlayNowButton"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1"
+			"zpos"			"20"
+			"wide"			"f0"
+			"tall"			"25"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#TF_MvM_MannUp"
+			"font"			"futura-heavy-20"
+			"textAlignment"	"center"
+			
+			"Command"		"mannup"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
+			"paintBackgroundType"	"0"
+			"roundedcorners"		"0"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+		}
 	}
 
 	"PracticeGroupBox"
@@ -155,7 +155,7 @@
 		//"ControlName"	"EditablePanel"
 		"fieldName"		"PracticeGroupBox"
 		"xpos"		"6"
-		"ypos"		"275"
+		"ypos"		"285"
 		"zpos"		"100"
 		"wide"		"250"
 		"tall"		"130"
@@ -196,24 +196,22 @@
 			"proportionaltoparent"	"1"
 		}
 
-		"Gradient"
+		"PlayOnCommunityServerExplanation"
 		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"Gradient"
-			"xpos"		"0"
-			"ypos"		"rs1"
-			"wide"		"f0"
-			"tall"		"100"
-			"zpos"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"rotation"		"0"
+			"ControlName"	"Label"
+			"fieldName"		"PlayOnCommunityServerExplanation"
+			"font"			"futura-book-14"
+			"fgcolor_override"	"loop_offwhite"
+			"labelText"		"#TF_MvM_PracticeExplaination"
+			"textAlignment"	"north-west"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1"
+			"zpos"			"3"
+			"wide"			"f20"
+			"tall"			"40"
+			"wrap" "1"
 			"proportionaltoparent"	"1"
-			"scaleimage"	"1"
 			"mouseinputenabled"	"0"
-			"alpha"		"255"
-
-			"image"		"gradient_pure_black"
 		}
 
 		"PracticeButton"
@@ -221,53 +219,25 @@
 			//"ControlName"	"CExButton"
 			"fieldName"		"PracticeButton"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-5"
+			"ypos"			"rs1"
 			"zpos"			"20"
 			"tall"			"25"
-			"wide"			"120"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"wide"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		"#TF_MvM_BootCamp"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"futura-heavy-20"
 			"textAlignment"	"center"
 			
 			
 			"Command"		"bootcamp"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-
-			"NavUp"			"Sheet"
-			"NavDown"		"LearnMoreButton"
-			"NavLeft"		"PlayNowButton"
-			"NavRight"		"StartPartyButton"
+			"paintBackgroundType"	"0"
+			"roundedcorners"		"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-			"depressedFgColor_override" "TanLight"
-		}
-
-		"PlayOnCommunityServerExplanation"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"PlayOnCommunityServerExplanation"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"TanLight"
-			"labelText"		"#TF_MvM_PracticeExplaination"
-			"textAlignment"	"north-west"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1"
-			"zpos"			"3"
-			"wide"			"f20"
-			"tall"			"50"
-			"wrap" "1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
 		}
 	}
 }

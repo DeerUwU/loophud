@@ -6,41 +6,74 @@
 	{
 		"fieldName"		"CasualCriteria"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1002"
 		"wide"			"270"
-		"tall"			"f70"
+		"tall"			"480"
 		"visible"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"OrangeBorder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OrangeBorder"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"480"
+		"visible"		"1"
+		
+		"fillcolor"		"loop_primary"
+		"PaintBackgroundType"	"0"
+		"proportionaltoparent"	"1"
+	}
+
+	"BGPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"border"		"noise_basic_black"
 		"proportionaltoparent"	"1"
 	}
 
 	"Title"
 	{
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"xpos"		"8"
-		"ypos"		"20"
+		"xpos"		"0"
+		"ypos"		"30"
 		"zpos"		"99"
 		"wide"		"f0"
-		"tall"		"20"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_HeaderCasual"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
+		"tall"		"30"
 		
+		"labeltext"			"#TF_Matchmaking_HeaderCasual"
+		"textAlignment"		"center"
+		"font"				"futura-heavy-30"
+		"fgcolor_override"	"loop_primary"
+		
+		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}
+
 
 	"criteria"
 	{
 		"ControlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
 		"xpos"			"-3"
-		"ypos"			"40"
+		"ypos"			"70"
 		"zpos"			"100"
 		"wide"			"f0"
-		"tall"			"f73"
+		"tall"			"380"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -71,12 +104,9 @@
 		"zpos"			"100"
 		"wide"			"f20"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"futura-heavy-20"
 		"textAlignment"	"center"
 		
 		"Command"		"find_game"
@@ -85,11 +115,11 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
+		"paintBackground"	"0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"border_default"	"noise_basic_black"
+		"border_armed"		"noise_basic_orange"
 	}
 }

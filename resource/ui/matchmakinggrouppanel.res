@@ -12,15 +12,17 @@
 
 	"BGPanel"
 	{
-		"fieldName"			"BGPanel"
-		"ControlName"		"EditablePanel"
-		"xpos"				"cs-0.5"
-		"ypos"				"0"
-		"wide"				"p1.3"
-		"tall"				"f0"
+		"fieldName"		"BGPanel"
+		"ControlName"	"EditablePanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"wide"			"p1.3"
+		"tall"			"f0"
+
+		"border"		"noise_basic_black"
+		"alpha"			"255"
 
 		"proportionaltoparent"	"1"
-		"border"		"MainMenuBGBorder"
 	}
 
 	"Checkbutton"
@@ -32,13 +34,14 @@
 		"zpos"		"3"
 		"wide"		"f0"
 		"tall"		"20"
-		"proportionaltoparent"	"1"
+		
 		"labeltext"		""
 		"smallcheckimage"	"1"
-		"fgcolor"	"TanLight"	
-		"font"		"HudFontSmallBold"
+		"fgcolor"	"loop_offwhite"	
+		"font"		"futura-heavy-14"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
+		"proportionaltoparent"	"1"
 	}	
 }

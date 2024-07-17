@@ -43,7 +43,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"border"		"noise_basic_black"
 		"proportionaltoparent"	"1"
 	}

@@ -20,7 +20,7 @@
 		{
 			"ControlName"	"CTFLocalPlayerBadgePanel"
 			"fieldName"		"RankImage"
-			"xpos"			"4"
+			"xpos"			"-24"
 			"ypos"			"-8"
 			"zpos"			"110"
 			"wide"			"o1"
@@ -37,7 +37,7 @@
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"-70"
+			"xpos"			"-100"
 			"ypos"			"-35"
 			"zpos"			"100"
 			"wide"			"330"
@@ -61,11 +61,8 @@
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
@@ -104,15 +101,11 @@
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			
 			
 			"default"		"0"
 			"Command"		"save_search_criteria"
@@ -138,87 +131,48 @@
 			}
 		}
 
-		"ShowExplanationsButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"ShowExplanationsButton"
-			"xpos"			"rs1-9"
-			"ypos"			"49"
-			"zpos"			"100"
-			"wide"			"15"
-			"tall"			"o1"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"?"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			
-			
-			"default"		"0"
-			"Command"		"show_explanations"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-		}
+
 
 		"Title"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"Title"
 			"xpos"		"10"
 			"ypos"		"47"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Casual_MapSelection"
-			"textAlignment"	"north-west"
-			"font"			"HudFontMediumSmallBold"
+			"visible"	"0"
+			
+			"labeltext"			"#TF_Casual_MapSelection"
+			"textAlignment"		"north-west"
+			"font"				"futura-heavy-14"
+			"fgcolor_override"	"loop_offwhite"
+			"alpha"				"64"
 		
 			"mouseinputenabled"	"0"
+			"proportionaltoparent"	"1"
 		}
 
 		"SelectedCount"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"SelectedCount"
 			"xpos"		"10"
-			"ypos"		"33"
+			"ypos"		"46"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
-			"proportionaltoparent"	"1"
-			"labeltext"		"%selected_maps_count%"
-			"textAlignment"	"west"
-			"font"			"HudFontSmallest"
-			"fgcolor_override"	"TanDark"
+			
+			"labeltext"			"%selected_maps_count%"
+			"textAlignment"		"west"
+			"font"				"futura-heavy-14"
+			"fgcolor_override"	"loop_secondary"
 		
+			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 		}
 
-		"QueueEstimation"
-		{
-			"ControlName"		"Label"
-			"fieldName"		"QueueEstimation"
-			"xpos"		"rs1-5"
-			"ypos"		"18"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"20"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Casual_QueueEstimation"
-			"textAlignment"	"east"
-			"font"			"HudFontSmallest"
-			"fgcolor_override"	"TanLight"
-			"textinsetx"	"5"
-			"visible"	"0"
-		
-			"mouseinputenabled"	"0"
-		}
 
 		"PlayListDropShadow"
 		{
@@ -229,7 +183,7 @@
 			"zpos"			"101"
 			"wide"			"f15"
 			"tall"			"f65"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
@@ -252,9 +206,8 @@
 
 			"ScrollBar"
 			{
-				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
+				"xpos"			"rs1"
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5" // This gets slammed from client schme.  GG.
@@ -264,16 +217,16 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"loop_primary"
 				}
-		
+			
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
-		
+			
 				"DownButton"
 				{
 					"ControlName"	"Button"

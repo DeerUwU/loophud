@@ -6,55 +6,63 @@
 	{
 		"fieldName"		"CompStats"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1002"
 		"wide"			"270"
-		"tall"			"f70"
+		"tall"			"480"
 		"visible"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"OrangeBorder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OrangeBorder"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"480"
+		"visible"		"1"
+		
+		"fillcolor"		"loop_primary"
+		"PaintBackgroundType"	"0"
+		"proportionaltoparent"	"1"
+	}
+
+	"BGPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"border"		"noise_basic_black"
 		"proportionaltoparent"	"1"
 	}
 
 	"Title"
 	{
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"xpos"		"8"
-		"ypos"		"20"
-		"zpos"		"99"
+		"xpos"		"10"
+		"ypos"		"37"
+		"zpos"		"0"
 		"wide"		"f0"
 		"tall"		"20"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
+		"visible"	"0"
 		
+		"labeltext"			"Wasteland"
+		"textAlignment"		"north-west"
+		"font"				"futura-heavy-14"
+		"fgcolor_override"	"loop_offwhite"
+		"alpha"				"64"
+	
 		"mouseinputenabled"	"0"
-	}
-
-	"ShowExplanationsButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"rs1-21"
-		"ypos"			"20"
-		"zpos"			"100"
-		"wide"			"15"
-		"tall"			"o1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"?"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		
-		"default"		"0"
-		"Command"		"show_explanations"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"actionsignallevel"	"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -113,25 +121,24 @@
 		"zpos"			"100"
 		"wide"			"f20"
 		"tall"			"20"
-		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+
+		"font"			"futura-heavy-20"
 		"textAlignment"	"center"
-		
 		"Command"		"find_game"
-		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_StartSearch"
-		"mouseinputenabled"	"1"
+
+		"mouseinputenabled"		"1"
 		"keyboardinputenabled"	"0"
-		"actionsignallevel"	"1"
+		"actionsignallevel"		"1"
+		"paintBackground"		"0"
+		"proportionaltoparent"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"border_default"	"noise_basic_black"
+		"border_armed"		"noise_basic_orange"
 	}
 }
