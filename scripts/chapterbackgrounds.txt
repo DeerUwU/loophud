@@ -1,0 +1,14 @@
+"chapters" //this is for the main menu
+{
+	1       "bg_mainmenu"
+	2       "bg_mainmenu"
+	3       "bg_mainmenu"
+	4       "bg_mainmenu"
+}
+"BackgroundMaps"
+{
+	1       "bg_mainmenu"
+	2       "bg_mainmenu"
+	3       "bg_mainmenu"
+	4       "bg_mainmenu"
+}

@@ -1,0 +1,23 @@
+// run a user script file if present
+exec autoexec.cfg
+exec config.cfg
+
+
+// stuff command line statements
+stuffcmds
+// display the startup level
+startupmenu
+sv_unlockedchapters 99
+
+
+/////////////////////////////////
+exec required.cfg
+
+
+alias loophud_initial "exec loophud_initialize"
+exec #loophud_initial.txt
+loophud_initial
+
+
+//run all the alias commands
+exec loophud.cfg

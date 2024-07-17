@@ -1,0 +1,12 @@
+"Images" //for loading into maps
+{
+	"normal"
+	{
+		"file"	"bg_loading"
+	}
+	
+	"widescreen"
+	{
+		"file"	"bg_loading"
+	}
+}
