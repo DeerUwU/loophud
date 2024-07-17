@@ -556,11 +556,39 @@
 			"wide"			"140"
 			"tall"			"35"
 			"pinCorner"		"3"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"font"			"HudFontSmallBold"
 
 			"IgnoreScheme"	"1"
+			
+			"Command"		"quit"
+			"proportionaltoparent"	"1"
+			"labeltext"		""
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"actionsignallevel"	"2"
+			"paintBorder"		"1"
+			"paintBackground"	"0"
+
+			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_depressed"	"UI/buttonclick.wav"
+
+			"border_default"	"quit_default"
+			"border_armed"		"quit_armed"
+		}
+		"QuitButtonTest"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"QuitButtonTest"
+			"xpos"			"rs1"
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"140"
+			"tall"			"35"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
 			
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
@@ -645,8 +673,7 @@
 			"wide"			"140"
 			"tall"			"35"
 			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			
@@ -661,6 +688,33 @@
 
 			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
+
+			"border"			"find_game_default"
+			"border_default"	"find_game_default"
+			"border_armed"		"find_game_armed"
+		}
+		"FindAGameButtonTest"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"FindAGameButtonTest"
+			"xpos"			"rs1-140"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"140"
+			"tall"			"35"
+			"visible"		"1"
+			
+			"Command"		"find_game"
+			"proportionaltoparent"	"1"
+			"labeltext"		""
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"actionsignallevel"	"2"
+			"paintBorder"		"1"
+			"paintBackground"	"0"
+
+			"sound_armed"		"UI/buttonrollover_small.wav"
+			"sound_depressed"	"UI/buttonclick_small.wav"
 
 			"border"			"find_game_default"
 			"border_default"	"find_game_default"

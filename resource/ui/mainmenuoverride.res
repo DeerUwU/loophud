@@ -1706,4 +1706,16 @@
 			"activeimage"		"replay/thumbnails/loophud_ui/buttons/armed_rhombus"
 		}
 	}
+
+	"DashboardDimmer"        // allows for clicking off playlist frames
+    {
+        "wide"					"f0"
+        "tall"					"f0"
+        "paintbackground"		"1"
+        "paintborder"			"0"
+        "roundedcorners"		"0"
+        "defaultBgColor_override"   "0 0 0 128"
+		"bgColor_override"       	"0 0 0 128"
+        "armedBgColor_override"		"0 0 0 128"
+    }
 }

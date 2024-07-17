@@ -71,6 +71,7 @@
 		"enabled"		"1"
 		"xpos"			"r162"
 		"ypos"			"r52"
+		"zpos"			"-5"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"loop_secondary"

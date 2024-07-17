@@ -41,6 +41,7 @@
 			"ypos"			"114"
 			"zpos"			"3"
 			"tall"			"12"
+			"visible"		"1"
 			"image"			"../hud/cart_track_neutral"
 		}
 		
@@ -66,7 +67,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		
-		"if_multiplema_trains"
+		"if_multiple_trains"
 		{
 			"ypos"			"114"
 			"zpos"			"6"
