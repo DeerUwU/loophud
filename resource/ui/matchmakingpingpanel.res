@@ -6,15 +6,31 @@
 	{
 		"fieldName"		"PingPanel"
 		"xpos"			"-300"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1001"
 		"wide"			"300"
-		"tall"			"f70"
+		"tall"			"480"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
 		"datacenter_y"	"3"
 		"datacenter_y_space"	"1"
+	}
+
+	"OrangeBorder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OrangeBorder"
+		"xpos"			"rs1"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"480"
+		"visible"		"1"
+		
+		"fillcolor"		"loop_primary"
+		"PaintBackgroundType"	"0"
+		"proportionaltoparent"	"1"
 	}
 
 	"BGPanel"
@@ -25,49 +41,48 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"f0"
-		"tall"			"f-50"
+		"tall"			"480"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"noise_basic_black"
 		"proportionaltoparent"	"1"
 	}
 
 	"Title"
 	{
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"xpos"		"13"
+		"xpos"		"26"
 		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
-		"tall"		"20"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_MM_OpenSettings"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumBold"
-		"fgcolor_override"	"TanDark"
+		"tall"		"30"
 		
+		"labeltext"			"#TF_MM_OpenSettings"
+		"textAlignment"		"west"
+		"font"				"futura-heavy-30"
+		"fgcolor_override"	"loop_primary"
+		
+		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}
 
 	"InviteModeLabel"
 	{
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"InviteModeLabel"
 		"xpos"		"26"
 		"ypos"		"50"
 		"zpos"		"3"
 		"wide"		"208"
 		"tall"		"20"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_MM_InviteMode"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
-		"smallcheckimage"	"1"
-		"fgcolor_override"	"TanDark"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
-		"button_activation_type"	"1"
+		"labeltext"			"#TF_MM_InviteMode"
+		"font"				"futura-heavy-16"
+		"textAlignment"		"west"
+		"fgcolor_override"	"loop_offwhite"
+		"proportionaltoparent"	"1"
+		"alpha"		"64"
 	}
 
 	"InviteModeComboBox"
@@ -80,7 +95,7 @@
 		"wide"			"200"
 		"tall"			"15"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"futura-demi-10"
 		"keyboardinputenabled"	"0"
 
 		"editable"		"0"
@@ -95,7 +110,7 @@
 
 	"IgnorePartyInvites"
 	{
-		"ControlName"		"CvarToggleCheckButton"
+		"ControlName"	"CvarToggleCheckButton"
 		"fieldName"		"IgnorePartyInvites"
 		"xpos"		"23"
 		"ypos"		"80"
@@ -105,18 +120,18 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_IgnoreInvites"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"futura-demi-14"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclick_small.wav"
 		"button_activation_type"	"1"
 
 		"cvar_name" "tf_party_ignore_invites"
 	}
 
-	"KeepPartyOnSameTeam"
+	"KeepPartyOnSameTeam"	//this is never coming lets be real
 	{
-		"ControlName"		"CvarToggleCheckButton"
+		"ControlName"	"CvarToggleCheckButton"
 		"fieldName"		"KeepPartyOnSameTeam"
 		"xpos"		"23"
 		"ypos"		"95"
@@ -126,8 +141,9 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"futura-demi-10"
 		"smallcheckimage"	"1"
+		"visible"	"0"
 		"enabled"	"0"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
@@ -148,6 +164,7 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
+		"visible"	"0"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
@@ -156,21 +173,21 @@
 
 	"CustomPingCheckButton"
 	{
-		"ControlName"		"CvarToggleCheckButton"
+		"ControlName"	"CvarToggleCheckButton"
 		"fieldName"		"CustomPingCheckButton"
 		"xpos"		"23"
-		"ypos"		"110"
+		"ypos"		"95"
 		"zpos"		"3"
 		"wide"		"208"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
+		"font"			"futura-demi-14"
 		"smallcheckimage"	"1"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclick_small.wav"
 		"button_activation_type"	"1"
 
 		"cvar_name"	"tf_mm_custom_ping_enabled"
@@ -180,41 +197,38 @@
 	// and the above checkbox has that behavior.  To get around it, make another label
 	"CheckLabel"
 	{
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"CheckLabel"
 		"xpos"		"42"
-		"ypos"		"110"
+		"ypos"		"95"
 		"zpos"		"3"
 		"wide"		"208"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_LobbyContainer_CustomPingButton"
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"futura-demi-14"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
+		"sound_depressed"	"UI/buttonclick_small.wav"
 		"button_activation_type"	"1"
 	}
 
 	"DescLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
 		"xpos"		"43"
-		"ypos"		"127"
+		"ypos"		"115"
 		"zpos"		"3"
 		"wide"		"p0.81"
 		"tall"		"45"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_LobbyContainer_CustomPingDesc"
 		"textAlignment"	"north-west"
-		"font"			"HudFontSmallest"
+		"font"			"futura-book-10"
 		"wrap"		"1"
 		"fgcolor"		"117 107 94 255"
-
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
-		"button_activation_type"	"1"
 	}
 
 	"CurrentPingLabel"
@@ -229,7 +243,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
+		"font"			"futura-heavy-14"
 		
 		"mouseinputenabled"	"0"
 	}
