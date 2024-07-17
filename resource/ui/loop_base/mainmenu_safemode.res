@@ -153,7 +153,7 @@
             "ControlName"		"CExImageButton"
             "fieldName"			"Button_Github"
             "font"				"futura-demi-10"
-            "labelText"			"placeholder"
+            "labelText"			"Github"
             "textAlignment"		"center"
             "xpos"			"0"
             "ypos"			"0"
@@ -169,7 +169,7 @@
             "paintbackground"		"0"
             "paintBorder"           "1"
             
-            "command"			"url https://ko-fi.com/forestcritter"
+            "command"			"url https://github.com/DeerUwU/loophud"
 
             "border_default"    "noise_basic_black"
             "border_armed"      "noise_basic_orange"
