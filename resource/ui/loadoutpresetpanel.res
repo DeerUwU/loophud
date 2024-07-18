@@ -43,7 +43,7 @@
 			"sound_armed"		"UI/buttonrollover_small.wav"
             "sound_depressed"	"UI/buttonclick_small.wav"
 			
-			"stayselectedonclick"	"1"
+			"stayselectedonclick"	"0"
 			"border_default"	"default_roundsmaller"
 			"border_armed"		"armed_roundsmaller"
 			"border_selected"	"armed_roundsmaller"
@@ -130,7 +130,7 @@
 			"sound_armed"		"UI/buttonrollover_small.wav"
             "sound_depressed"	"UI/buttonclick_small.wav"
 			
-			"stayselectedonclick"	"1"
+			"stayselectedonclick"	"0"
 			"border_default"	"default_roundsmaller"
 			"border_armed"		"armed_roundsmaller"
 			"border_selected"	"armed_roundsmaller"
