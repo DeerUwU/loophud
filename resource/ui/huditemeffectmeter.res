@@ -1,3 +1,7 @@
+#base "../../cfg/#loophud_custom.txt"		//windows
+#base "../../../../cfg/#loophud_custom.txt"	//linux
+
+
 "Resource/UI/HudItemEffectMeter.res"
 {
 	HudItemEffectMeter
@@ -61,7 +65,7 @@
 		"ypos"					"26"
 		"zpos"					"0"
 		"wide"					"85"
-		"tall"					"6"		
+		"tall"					"7"		
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"east"
@@ -74,7 +78,7 @@
 		"font"					"Default"
 		"zpos"					"-1"
 		"wide"					"85"
-		"tall"					"6"		
+		"tall"					"7"		
 		"visible"				"1"
 		"enabled"				"1"
 		"proportionaltoparent"	"1"
@@ -89,14 +93,27 @@
 		"fieldName"		"MeterOverlay"
 		"zpos"			"1"
 		"wide"			"85"
-		"tall"			"6"
-		"visible"		"1"
-		"enabled"		"1"
+		"tall"			"7"
 		"scaleImage"	"1"	
 		"proportionaltoparent"	"1"
 		"image"			"replay/thumbnails/modulate"
-		"drawcolor"		"loop_offwhite"
+		"drawcolor" 	"loop_offwhite"
 
 		"pin_to_sibling"	"ItemEffectMeter"
-	}				
+	}		
+	"MeterOverlay_teamcolor"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"MeterOverlay_teamcolor"
+		"zpos"			"1"
+		"wide"			"85"
+		"tall"			"7"
+		"scaleImage"	"1"	
+		"proportionaltoparent"	"1"
+		"image"			"replay/thumbnails/modulate"
+		"teambg_2"		"replay/thumbnails/modulate_red"
+		"teambg_3"		"replay/thumbnails/modulate_extra"
+
+		"pin_to_sibling"	"ItemEffectMeter"
+	}			
 }

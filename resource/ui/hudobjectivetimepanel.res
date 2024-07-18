@@ -16,7 +16,7 @@
 		"color_active"			"loop_offwhite"
 		"color_inactive"		"loop_black"
 		"color_warning"			"loop_health"
-		"percent_warning"		"0.75"
+		"percent_warning"		"0.80"
 
 		"pin_to_sibling"		"TimePanelValue"
 		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"

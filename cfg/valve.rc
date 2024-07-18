@@ -21,3 +21,4 @@ loophud_initial
 
 //run all the alias commands
 exec loophud.cfg
+exec loophud_logo.cfg
