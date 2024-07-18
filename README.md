@@ -7,5 +7,5 @@ Based on Deathloop, taking inspiration from it's gritty yet sleek UI
 > [!NOTE]
 > If you want to report issues, please make sure that
 > - They are not caused by conflicting mods
-> - They are not caused by the game
+> - They are not caused by the game itself
 > - You specify your resolution if it might be relevant
