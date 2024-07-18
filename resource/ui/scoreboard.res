@@ -70,7 +70,7 @@
 	
 	"BlueTeamImage"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueTeamImage"
 		"xpos"			"9999"
 		"ypos"			"9"
@@ -82,7 +82,7 @@
 	}
 	"RedTeamImage"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"RedTeamImage"
 		"xpos"			"9999"
 		"ypos"			"-5"
@@ -107,11 +107,6 @@
 		"tall"			"55"
 		"visible"		"0"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}	
 	"BlueTeamScoreDropshadow"
 	{
@@ -129,11 +124,6 @@
 		"tall"			"55"
 		"visible"		"0"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}	
 	"BlueTeamPlayerCount"
 	{
@@ -148,11 +138,6 @@
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}	
 	"RedTeamPlayerCount"
 	{
@@ -167,11 +152,6 @@
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}	
 	"BlueTeamLabel" //doesnt work idk
 	{
@@ -187,11 +167,6 @@
 		"tall"			"23"
 		"visible"		"0"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}		
 	"RedTeamLabel" //doesnt work idk
 	{
@@ -209,11 +184,6 @@
 		"tall"			"23"
 		"visible"		"0"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}	
 	"ClassImage"
 	{
@@ -228,11 +198,6 @@
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
-		
-		if_mvm
-		{
-			"visible"		"1"
-		}
 	}
 	"classmodelpanel"
 	{
@@ -392,7 +357,7 @@
 		if_mvm
 		{
 			"ypos"			"0"
-			"tall"			"448"
+			"tall"			"580"
 		}
 	}	
 	"RingsBG"
@@ -462,11 +427,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/loophud_ui/scoreboard_bottom"
-		
-		if_mvm
-		{
-			"visible"		"1"
-		}
 	}
 
 	"BluLabelCustom"
@@ -485,6 +445,10 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedLabelCustom"
 	{
@@ -502,6 +466,10 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 
 	"BlueTeamScore"
@@ -564,12 +532,6 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"ypos"			"0"
-			"visible"		"1"
-		}
 	}							
 
 
@@ -590,7 +552,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 	}							
 	
@@ -607,11 +569,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"TFThinLineBorder"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 	"PlayerNameLabel"
 	{
@@ -627,12 +584,6 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-			"wide"			"175"
-		}
 	}
 
 	"ServerLabelNew"
@@ -718,16 +669,16 @@
 	}
 	"HorizontalLine"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HorizontalLine"
-		"xpos"			"115"
+		"xpos"			"cs-0.5"
 		"ypos"			"397"
 		"zpos"			"3"
-		"wide"			"465"
+		"wide"			"540"
 		"tall"			"1"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"127 127 127 153"
+		"fillcolor"		"loop_primary"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm

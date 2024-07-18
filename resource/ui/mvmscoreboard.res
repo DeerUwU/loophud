@@ -4,12 +4,12 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"0"
+		"xpos"				"9999"
 		"ypos"				"8"
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		
 		"verbose"			"1"
@@ -33,38 +33,39 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"425"
+		"xpos"			"cs-0.5"
 		"ypos"			"30"
 		"wide"			"150"
-		"tall"			"20"
+		"tall"			"30"
 		"visible"		"1"
+		"bgcolor_override"	"loop_black"
 		
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmallest"
+			"font"			"futura-heavy-16"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"5"
 			"wide"			"150"
 			"tall"			"10"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"loop_offwhite"
 		}
 		
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"HudFontSmallBold"
+			"font"			"futura-demi-14"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"9"
+			"ypos"			"14"
 			"wide"			"150"
 			"tall"			"10"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"loop_secondary"
 		}
 	}
 	
@@ -77,7 +78,7 @@
 		"zpos"			"-1"
 		"wide"			"550"
 		"tall"			"150"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/tournament_panel_brown"
 		
@@ -94,11 +95,10 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"35"
+		"xpos"			"cs-0.5"
 		"ypos"			"79"
 		"wide"			"530"
 		"tall"			"150"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -111,7 +111,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"100"
+		"xpos"			"cs-0.5"
 		"ypos"			"230"
 		"wide"			"400"
 		"tall"			"205"
@@ -126,9 +126,7 @@
 			"zpos"			"-1"
 			"wide"			"400"
 			"tall"			"135"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 
@@ -143,14 +141,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
+			"font"			"futura-heavy-20"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
 			"xpos"			"8"
 			"ypos"			"8"
 			"wide"			"100"
 			"tall"			"25"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"loop_primary"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
