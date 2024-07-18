@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"Background_loadoutpanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5-7"
+		"xpos"			"0"
+		"ypos"			"-47"
 		"zpos"			"-200"
 		"wide"			"f0"
 		"tall"			"480"
@@ -13,6 +13,6 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/loophud/bg_loadout"
 		"scaleImage"	"1"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 	}	    
 }

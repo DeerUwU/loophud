@@ -36,7 +36,7 @@
 		"ypos"			"0"
 		"zpos"			"-200"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/loophud/bg_loadout"
@@ -114,13 +114,12 @@
 	{
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"0"
+		"xpos"			""
 		"ypos"			"0"
 		"zpos"			"-9999"
-		"wide"			"190"
+		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"0"
 
 		"pin_to_sibling" "pin_notificationpanel"
 	}
@@ -130,7 +129,7 @@
 		"ControlName"	"panel"
 		"fieldName"		"pin_notificationpanel"
 		"xpos"			"9999"
-		"ypos"			"10"
+		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
