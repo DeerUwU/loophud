@@ -1,4 +1,5 @@
 #base "loop_base/itemcounter.res"
+// crits counter
 "Resource/UI/HudItemEffectMeter_Spy.res"
 {
 	HudItemEffectMeter

@@ -54,7 +54,7 @@
 				"ControlName"	"CExButton"
 				"fieldName"		"ExpandButton"
 				"font"			"HudFontSmallBold"
-				"labelText"		"Extras"
+				"labelText"		"EXTRAS"
 				"textinsetx"	"22"
 				"textAlignment"	"west"
 				"xpos"			"0"

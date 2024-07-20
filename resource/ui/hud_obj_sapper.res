@@ -7,12 +7,26 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"150"
-		"tall"			"31"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+	}
+
+	"Bg" 
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Bg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"104"
+		"tall"			"40"
+		"visible"		"1"
+		"scaleImage"	"1"	
+		"paintbackground"	"0"
+		"paintBorder"		"1"
+		"border"			"noise_basic_black"
+		"bgcolor_override"	"loop_primary"
 	}
 	
 	"Background"
@@ -24,8 +38,7 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_red"
 		"iconColor"		"255 255 255 255"
@@ -35,7 +48,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"24"
+		"xpos"			"4"
 		"ypos"			"1"
 		"wide"			"28"
 		"tall"			"28"
@@ -43,10 +56,10 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sapper"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"loop_black"
 	}
 	
-	"NotBuiltPanel"
+	"NotBuiltPanel" //never visible anyways
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NotBuiltPanel"
@@ -65,8 +78,6 @@
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"31"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_sapper_not_built"
@@ -86,22 +97,18 @@
 		"tall"			"43"
 		"visible"		"0"
 
-		"Health"
+		"Health" //doesnt work
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"13"
-			"ypos"			"2"
-			"wide"			"8"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
+			"xpos"			"-10"
+			"ypos"			"-1"
+			"wide"			"4"
+			"tall"			"f0"
+			"visible"		"0"
 			"enabled"		"1"
-			"textAlignment"	"Left"
-			
-			
+			"textAlignment"	"west"
 		}
 
 		"BuildingPanel"
@@ -123,14 +130,10 @@
 				"ypos"			"5"
 				"wide"			"200"
 				"tall"			"12"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
-				
-				
 			}
 			
 			"BuildingProgress"
@@ -141,14 +144,10 @@
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
-				"tall"			"8"				
-				"autoResize"	"0"
-				"pinCorner"		"0"
+				"tall"			"8"	
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				
-				
 			}
 		}
 	
@@ -156,25 +155,25 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"55"
+			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"100"
-			"tall"			"31"
+			"wide"			"104"
+			"tall"			"30"
 			"visible"		"0"
 			
 			"TargetIcon"
 			{
 				"ControlName"	"CIconPanel"
 				"fieldName"		"TargetIcon"
-				"xpos"			"0"
-				"ypos"			"5"
-				"wide"			"20"
-				"tall"			"20"
+				"xpos"			"32"
+				"ypos"			"3"
+				"wide"			"24"
+				"tall"			"24"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"obj_status_sentrygun_1"
-				"iconColor"		"255 255 255 255"
+				"iconColor"		"loop_black"
 			}
 			
 			"TargetHealth"
@@ -182,17 +181,14 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"TargetHealth"
 				"font"			"Default"
-				"xpos"			"22"
-				"ypos"			"12"
-				"wide"			"35"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
-				
-				
+				"textAlignment"	"west"
+				"proportionaltoparent"	"1"
 			}
 		}
 	}

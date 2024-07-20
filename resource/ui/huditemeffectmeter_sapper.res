@@ -6,12 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 //		"x_offset"		"40"
-		"xpos"			"r258"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
-		"xpos_minbad"	"r52"	[$WIN32]
-		"ypos_minbad"	"r83"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
+		"xpos"			"r258"
+		"ypos"			"r57"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -28,14 +24,11 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
-		"visible_minbad"	"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz3_blue"
 		"scaleImage"	"1"	
+		"image"			"../hud/misc_ammo_area_horiz3_blue"
 		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"			
 	}
 	
 	"ItemEffectMeterLabel"
@@ -47,12 +40,7 @@
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minbad"		"1"
-		"ypos_minbad"			"1"
-		"xpos_minbad"			"0"
 		"textAlignment_minbad"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
@@ -70,14 +58,9 @@
 		"font"					"Default"
 		"xpos"					"47"
 		"ypos"					"23"
-		"ypos_minbad"			"0"
-		"xpos_minbad"			"0"
 		"zpos"					"2"
 		"wide"					"30"
-		"wide_minbad"			"50"
-		"tall"					"5"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
+		"tall"					"5"		
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"

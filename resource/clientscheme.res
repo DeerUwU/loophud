@@ -32,6 +32,26 @@ Scheme
 		Button.SelectedBgColor			"loop_primary"
 		Button.DepressedTextColor		"loop_black"
 		Button.DepressedBgColor			"loop_primary_dark"
+
+
+
+		ScrollBarButton.FgColor				"loop_primary"
+		ScrollBarButton.BgColor				"loop_primary_dark"
+		ScrollBarButton.ArmedFgColor		"loop_black"
+		ScrollBarButton.ArmedBgColor		"loop_primary"
+		ScrollBarButton.DepressedFgColor	"loop_black"
+		ScrollBarButton.DepressedBgColor	"loop_primary"
+
+		ScrollBarSlider.BgColor				"loop_primary_dark"
+		ScrollBarSlider.FgColor				"loop_primary"		// handle with which the slider is grabbed
+
+		ScrollBar.Wide						5
+		
+		Slider.NobColor				"loop_primary"		
+		Slider.TextColor			"loop_offwhite"
+		Slider.TrackColor			"loop_primary_dark"
+		Slider.DisabledTextColor1	"loop_primary_dark"
+        Slider.DisabledTextColor2	"Blank"
     }
 
 

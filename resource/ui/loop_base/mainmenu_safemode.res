@@ -251,7 +251,7 @@
                 "ScrollBar"
                 {
                     "FieldName"		"ScrollBar"
-                    "xpos"			"rs1"
+                    "xpos"			"rs1+1"
                     "ypos"			"0"
                     "tall"			"f0"
                     "wide"			"5" // This gets slammed from client schme.  GG.
@@ -1228,7 +1228,7 @@
                     "font"          "futura-book-10"
                     "fgcolor"       "loop_offwhite"
                     "alpha"         "64"
-                    "labelText"     "Coloring for the small item meters on the right side"
+                    "labelText"     "Coloring and position for the small item meters. "
                     "textAlignment" "north-west"
                     "wrap"          "1"
                     "proportionaltoparent"		"1"
@@ -1289,6 +1289,110 @@
                     "border_default"    "noise_basic_black"
                     "border_armed"      "noise_basic_orange"
 
+                    "sound_armed"		"UI/buttonrollover_small.wav"
+                    "sound_depressed"	"UI/buttonclick_small.wav"
+                }
+
+
+                "seperatorline_small_6"
+                {
+                    "ControlName"	"ImagePanel"
+                    "fieldName"		"seperatorline_small_6"
+                    "xpos"      "150"
+                    "ypos"      "432"
+                    "zpos"		"0"
+                    "wide"		"120"
+                    "tall"		"1"
+                    "visible"	"1"
+                    "fillcolor" "loop_primary"
+                    "proportionaltoparent"		"1"
+                }
+
+                "Button_smallmeter_left"
+                {
+                    "ControlName"		"CExButton"
+                    "fieldName"			"Button_smallmeter_left"
+                    "font"				"futura-demi-10"
+                    "labelText"			"Left"
+                    "textAlignment"		"center"
+                    "xpos"			"160"
+                    "ypos"			"435"
+                    "zpos"			"2"
+                    "wide"			"100"
+                    "tall"			"20"
+                    "visible"		"1"
+                    "enabled"		"1"
+                    
+                    "proportionaltoparent"	"1"
+                    "stay_armed_on_click"	"1"
+                    "actionsignallevel"		"4"
+                    "paintbackground"		"0"
+                    "paintBorder"           "1"
+                    
+                    "command"			"engine lh_meter_pos_left;		exec loophud_save;exec loophud_generate; hud_reloadscheme"
+
+                    "border_default"    "noise_basic_black"
+                    "border_armed"      "noise_basic_orange"
+                    
+                    "sound_armed"		"UI/buttonrollover_small.wav"
+                    "sound_depressed"	"UI/buttonclick_small.wav"
+                }
+
+                "Button_smallmeter_center"
+                {
+                    "ControlName"		"CExButton"
+                    "fieldName"			"Button_smallmeter_center"
+                    "font"				"futura-demi-10"
+                    "labelText"			"Center"
+                    "textAlignment"		"center"
+                    "xpos"			"160"
+                    "ypos"			"455"
+                    "zpos"			"2"
+                    "wide"			"100"
+                    "tall"			"20"
+                    "visible"		"1"
+                    "enabled"		"1"
+                    
+                    "proportionaltoparent"	"1"
+                    "stay_armed_on_click"	"1"
+                    "actionsignallevel"		"4"
+                    "paintbackground"		"0"
+                    "paintBorder"           "1"
+                    
+                    "command"			"engine lh_meter_pos_center;		exec loophud_save;exec loophud_generate; hud_reloadscheme"
+
+                    "border_default"    "noise_basic_black"
+                    "border_armed"      "noise_basic_orange"
+                    
+                    "sound_armed"		"UI/buttonrollover_small.wav"
+                    "sound_depressed"	"UI/buttonclick_small.wav"
+                }
+                "Button_smallmeter_right"
+                {
+                    "ControlName"		"CExButton"
+                    "fieldName"			"Button_smallmeter_right"
+                    "font"				"futura-demi-10"
+                    "labelText"			"Right"
+                    "textAlignment"		"center"
+                    "xpos"			"160"
+                    "ypos"			"475"
+                    "zpos"			"2"
+                    "wide"			"100"
+                    "tall"			"20"
+                    "visible"		"1"
+                    "enabled"		"1"
+                    
+                    "proportionaltoparent"	"1"
+                    "stay_armed_on_click"	"1"
+                    "actionsignallevel"		"4"
+                    "paintbackground"		"0"
+                    "paintBorder"           "1"
+                    
+                    "command"			"engine lh_meter_pos_right;		exec loophud_save;exec loophud_generate; hud_reloadscheme"
+
+                    "border_default"    "noise_basic_black"
+                    "border_armed"      "noise_basic_orange"
+                    
                     "sound_armed"		"UI/buttonrollover_small.wav"
                     "sound_depressed"	"UI/buttonclick_small.wav"
                 }
@@ -1361,10 +1465,10 @@
                 "ScrollBar"
                 {
                     "FieldName"		"ScrollBar"
-                    "xpos"			"rs1-1"
+                    "xpos"			"rs1+1"
                     "ypos"			"0"
                     "tall"			"f0"
-                    "wide"			"5" // This gets slammed from client schme.  GG.
+                    "wide"			"4" // This gets slammed from client schme.  GG.
                     "zpos"			"1000"
                     "nobuttons"		"1"
                     "proportionaltoparent"	"1"
@@ -1396,7 +1500,7 @@
                     "font"			"futura-extrabold-30"
                     "labelText"		"GAME SETTINGS"
                     "textinsetx"	"22"
-                    "textAlignment"	"west"
+                    "textAlignment"	"center"
                     "xpos"			"0"
                     "ypos"			"0"
                     "wide"			"f0"

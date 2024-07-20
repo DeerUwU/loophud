@@ -241,7 +241,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
 		"xpos"			"c100"
-		"ypos"			"rs1-107"
+		"ypos"			"rs1-137"
 		"zpos"			"-99"
 		"wide"			"30"
 		"tall"			"30"

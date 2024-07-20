@@ -29,7 +29,19 @@ Scheme
 		"loop_primary_dark_128" "62 26 11 128"
 		"loop_primary_dark_64"  "62 26 11 64"
 
+		"Blank"					"0 0 0 0"
 
+
+		// "loop_stats_1"				"252 176 69 255"
+		// "loop_stats_2"				"252 129 83 255"
+		// "loop_stats_3"				"252 103 91 255"
+		// "loop_stats_4"				"252 70 101 255"
+		// "loop_stats_5"				"253 29 114 255"
+		// "loop_stats_6"				"213 57 148 255"
+		// "loop_stats_7"				"170 87 185 255"
+		// "loop_stats_8"				"133 113 216 255"
+		// "loop_stats_9"				"86 145 255 255"
+ 
 		"loop_stats_1"				"252 176 69 255"
 		"loop_stats_2"				"252 129 83 255"
 		"loop_stats_3"				"252 103 91 255"

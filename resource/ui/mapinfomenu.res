@@ -80,7 +80,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
-		"xpos"			"c-184"
+		"xpos"			"cs-0.5"
 		"ypos"			"125"
 		"zpos"			"1"
 		"wide"			"225"
@@ -88,7 +88,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"font"			"futura-heavy-30"
 		"fgcolor"		"loop_offwhite"
 	}	
@@ -98,7 +98,7 @@
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
 		"font"			"futura-book-16"
-		"xpos"			"c-184"
+		"xpos"			"cs-0.5"
 		"ypos"			"160"
 		"zpos"			"3"
 		"wide"			"210"
@@ -125,7 +125,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
-		"xpos"			"c30"
+		"xpos"			"9999"
 		"ypos"			"95"
 		"zpos"			"2"
 		"wide"			"275"

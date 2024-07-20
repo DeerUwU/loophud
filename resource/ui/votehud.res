@@ -10,7 +10,11 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"outline_basic_primary"
+
+		"paintBorder"			"1"
+		"paintBackgroundType"	"0"
+		"bgcolor_override"		"loop_black_196"
 				
 		"PassedIcon"
 		{
@@ -40,9 +44,9 @@
 			"textAlignment"	"west"
 			
 			
-			"font"			"ScoreboardSmall"
+			"font"			"futura-heavy-20"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"19 218 32 255"
 		}
 		
 		"PassedResult"
@@ -59,7 +63,7 @@
 			"textAlignment"	"north-west"
 			
 			
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-demi-12"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 			"noshortcutsyntax" "1"
@@ -76,7 +80,11 @@
 		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"outline_basic_primary"
+
+		"paintBorder"			"1"
+		"paintBackgroundType"	"0"
+		"bgcolor_override"		"loop_black_196"
 		
 		"Header"
 		{
@@ -92,9 +100,9 @@
 			"textAlignment"		"north-west"
 			
 			
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-heavy-20"
 			"wrap"			"1"
-			"fgcolor_override"	"128 128 128 255"
+			"fgcolor_override"	"loop_primary"
 		}
 		
 		"Issue"
@@ -111,8 +119,8 @@
 			"textAlignment"	"north-west"
 			
 			
-			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"255 255 255 255"
+			"font"			"futura-demi-14"
+			"fgcolor_override"	"loop_offwhite"
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
 		}
@@ -407,7 +415,11 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"outline_basic_primary"
+
+		"paintBorder"			"1"
+		"paintBackgroundType"	"0"
+		"bgcolor_override"		"loop_black_196"
 				
 		"FailedIcon"
 		{
@@ -429,7 +441,7 @@
 			"fieldName"		"FailedTitle"
 			"xpos"			"32"
 			"ypos"			"10"
-			"wide"			"80"
+			"wide"			"100"
 			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
@@ -437,7 +449,7 @@
 			"textAlignment"	"west"
 			
 			
-			"font"			"ScoreboardSmall"
+			"font"			"futura-heavy-20"
 			"wrap"			"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
@@ -456,9 +468,9 @@
 			"textAlignment"	"north-west"
 			
 			
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-demi-14"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"loop_offwhite"
 		}		
 	}
 	
@@ -536,22 +548,23 @@
 		"ypos"				"c-150"
 		"wide"				"400"
 		"tall"				"310"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
-		"settitlebarvisible"	"0"
-		"border"			"TFFatLineBorderOpaque"
-		"bgcolor_override"	"0 0 0 0"
-		"PaintBackground"	"0"
+		"settitlebarvisible" "0"
+		"border"		"outline_basic_primary"
 
-		"header_font"		"ItemFontNameLarge"
-		"header_fgcolor"	"Orange"
+		"paintBorder"			"1"
+		"paintBackgroundType"	"0"
+		"PaintBackground"		"1"
+		"bgcolor_override"		"loop_black"
+		
+
+		"header_font"		"futura-extrabold-20"
+		"header_fgcolor"	"loop_primary"
 
 		"issue_width"		"180"		
 		"issue_font"		"ItemFontNameSmall"
-		"issue_fgcolor"		"TanLight"
+		"issue_fgcolor"		"loop_offwhite" //map title etc
 		"issue_fgcolor_disabled"	"TanDark"
 		
 		"parameter_width"	"200"
@@ -560,15 +573,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"futura-extrabold-20"
 			"labelText"		"#TF_Vote_Title"
 			"textAlignment"	"north"
+			"fgcolor"		"loop_primary"
 			"xpos"			"0"
 			"ypos"			"10"
 			"wide"			"400"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"0"
@@ -601,7 +613,6 @@
 			"zpos"		"2"
 			"wide"		"200"
 			"tall"		"200"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
@@ -636,8 +647,6 @@
 			"zpos"				"1"
 			"wide"				"235"
 			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"tabPosition"		"1"
@@ -647,56 +656,70 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			
-			"fgcolor_override"	"117 107 94 255"
-			"bgcolor_override"	"251 235 202 255"
-			"disabledFgColor_override" "117 107 94 255"
-			"disabledBgColor_override" "251 235 202 255"
-			"selectionColor_override" "251 235 202 255"
+			"fgcolor_override"	"loop_offwhite"
+			"bgcolor_override"	"loop_primary_dark"
+			"disabledFgColor_override" "loop_black"
+			"disabledBgColor_override" "loop_primary_dark"
+			"selectionColor_override" "blank" // text is highlighted after picking a dropdown option, it looks weird imo
 			"selectionTextColor_override" "117 107 94 255"
-			"defaultSelectionBG2Color_override" "251 235 202 255"
+			"defaultSelectionBG2Color_override" "0 162 255 255" // ?
 		}
 			
 		"CallVoteButton"
 		{
-			"ControlName"		"Button"
+			"ControlName"	"Button"
 			"fieldName"		"CallVoteButton"
 			"xpos"		"75"
 			"ypos"		"275"
 			"wide"		"160"
 			"tall"		"24"
-			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"0"
 			"tabPosition"	"4"
+			"paintBackground"	"1"
+			"paintBorder"		"1"
+			"roundedcorners"	"0"
 			"labelText"		"#TF_call_vote"
 			"textAlignment"	"center"
 			
-			
 			"Command"		"CallVote"
 			"Default"		"0"
-			"font"			"HudFontSmallBold"
+			"font"			"futura-heavy-20"
+
+			"border_default"    "noise_basic_black"
+            "border_armed"      "noise_basic_orange"
+
+			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_depressed"	"UI/buttonclick.wav"
 		}
 		"Button1"
 		{
-			"ControlName"		"Button"
+			"ControlName"	"Button"
 			"fieldName"		"Button1"
 			"xpos"		"240"
 			"ypos"		"275"
 			"wide"		"80"
 			"tall"		"24"
-			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"4"
+			"paintBackground"	"1"
+			"paintBorder"		"1"
+			"roundedcorners"	"0"
 			"labelText"		"#GameUI_Close"
 			"textAlignment"	"center"
 			
-			
-			"Command"		"Close"
-			"Default"		"0"
-			"font"			"HudFontSmallBold"
+			"Command"			"Close"
+			"Default"			"0"
+			"font"				"futura-heavy-20"
+
+			"border_default"    "noise_basic_black"
+            "border_armed"      "noise_basic_orange"
+
+			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_depressed"	"UI/buttonclick.wav"
 		}
 	}
 }

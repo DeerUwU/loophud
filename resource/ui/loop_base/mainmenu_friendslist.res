@@ -54,7 +54,7 @@
 				"ControlName"	"CExButton"
 				"fieldName"		"ExpandButton"
 				"font"			"HudFontSmallBold"
-				"labelText"		"#TF_Competitive_Friends"
+				"labelText"		"FRIENDS"
 				"textinsetx"	"22"
 				"textAlignment"	"west"
 				"xpos"			"0"
@@ -84,7 +84,7 @@
 				"zpos"			"501"
 				"wide"			"f10"
 				"tall"			"110"
-				"visible"		"1"	
+				"visible"		"0"	
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
@@ -100,7 +100,7 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"rs1-10"
 				"zpos"			"500"
-				"wide"			"f10"
+				"wide"			"f0"
 				"tall"			"110"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
@@ -132,7 +132,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"TanDark"
+						"fgcolor_override"	"loop_primary"
 					}
 			
 					"UpButton"
@@ -160,7 +160,7 @@
 				"zpos"			"499"
 				"wide"			"f10"
 				"tall"			"110"
-				"visible"		"1"	
+				"visible"		"0"	
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"

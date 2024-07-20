@@ -20,7 +20,7 @@
 		{
 			"ControlName"	"CTFLocalPlayerBadgePanel"
 			"fieldName"		"RankImage"
-			"xpos"			"-24"
+			"xpos"			"195"
 			"ypos"			"-8"
 			"zpos"			"110"
 			"wide"			"o1"
@@ -29,6 +29,8 @@
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
+			"border"		"noise_basic_orange" //debug
+			"paintBorder"	"0"
 
 			"matchgroup"	"MatchGroup_Casual_12v12"
 		}
@@ -37,7 +39,7 @@
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"-100"
+			"xpos"			"-126"
 			"ypos"			"-35"
 			"zpos"			"100"
 			"wide"			"330"
