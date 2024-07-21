@@ -18,7 +18,6 @@
 		"labelText_lodef"		"#TF_Object_Sentry_360"
 		"textAlignment"	"Left"
 		
-		"fgcolor"		"0 255 0 255"
 	}
 
 	"ItemBackground"
@@ -34,7 +33,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"ProgressOffWhite"
 	}
 	
 	"BuildingIcon"	
@@ -50,7 +49,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"ModeLabel"
@@ -85,7 +84,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NumberLabel"

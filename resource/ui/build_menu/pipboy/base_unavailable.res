@@ -18,7 +18,6 @@
 		"labelText_lodef"		"#TF_Object_Sentry_360"
 		"textAlignment"	"Left"
 		
-		"fgcolor"		"0 255 0 255"
 	}
 	
 	"ItemBackground"	
@@ -34,7 +33,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"ProgressOffWhiteTransparent"
 	}
 	
 	"CantBuildReason"
@@ -69,7 +68,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"TanDark"
 	}
 	
 	"CostLabel"
@@ -77,7 +76,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"HudFontSmall"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"TanDark"
 		"xpos"			"23"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -123,7 +122,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NumberLabel"
@@ -145,6 +144,5 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		
-		"fgcolor"		"0 255 0 255"
 	}
 }
