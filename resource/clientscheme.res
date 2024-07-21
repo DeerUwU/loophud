@@ -828,7 +828,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"IBM Plex Mono"
+				"name"		"IBM Plex Mono Regular"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -839,7 +839,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"IBM Plex Mono"
+				"name"		"IBM Plex Mono Regular"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -850,7 +850,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"IBM Plex Mono"
+				"name"		"IBM Plex Mono Regular"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -860,7 +860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"IBM Plex Mono"
+				"name"		"IBM Plex Mono Regular"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -871,7 +871,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"IBM Plex Mono"
+				"name"		"IBM Plex Mono Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -882,7 +882,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"IBM Plex Mono"
+				"name"		"IBM Plex Mono Regular"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
