@@ -49,7 +49,29 @@
 		"font"					"TFFontSmall"
 		"disabledfgcolor2_override"	"loop_primary"
 	}
-
+	
+	"ItemEffectMeter" // here to stop console spamming
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"					"25"
+		"ypos"					"23"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
+		"zpos"					"2"
+		"wide"					"0"
+		"wide_minmode"			"0"
+		"tall"					"6"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"0"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+	}
+	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -67,4 +89,5 @@
 		"font"					"futura-demi-30"
 		"fgcolor"				"loop_offwhite"
 	}
+	
 }
