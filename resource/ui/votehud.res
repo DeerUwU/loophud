@@ -12,9 +12,9 @@
 		"enabled"		"1"
 		"border"		"outline_basic_primary"
 
-		"paintBorder"			"1"
+		"paintBorder"			"0"
 		"paintBackgroundType"	"0"
-		"bgcolor_override"		"loop_black_196"
+		"bgcolor_override"		"loop_black"
 				
 		"PassedIcon"
 		{
@@ -44,7 +44,7 @@
 			"textAlignment"	"west"
 			
 			
-			"font"			"futura-heavy-20"
+			"font"			"futura-heavy-14"
 			"wrap"			"1"
 			"fgcolor_override"	"19 218 32 255"
 		}
@@ -61,11 +61,10 @@
 			"enabled"		"1"
 			"labelText"		"%passedresult%"
 			"textAlignment"	"north-west"
-			
-			
-			"font"			"futura-demi-12"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			
+			"font"			"futura-book-12"
+			"fgcolor_override"	"loop_offwhite"
 			"noshortcutsyntax" "1"
 		}		
 	}
@@ -82,9 +81,9 @@
 		"enabled"		"1"
 		"border"		"outline_basic_primary"
 
-		"paintBorder"			"1"
+		"paintBorder"			"0"
 		"paintBackgroundType"	"0"
-		"bgcolor_override"		"loop_black_196"
+		"bgcolor_override"		"loop_black"
 		
 		"Header"
 		{
@@ -100,7 +99,7 @@
 			"textAlignment"		"north-west"
 			
 			
-			"font"			"futura-heavy-20"
+			"font"			"futura-heavy-14"
 			"wrap"			"1"
 			"fgcolor_override"	"loop_primary"
 		}
@@ -117,11 +116,11 @@
 			"enabled"		"1"
 			"labelText"		"%voteissue%"
 			"textAlignment"	"north-west"
-			
-			
-			"font"			"futura-demi-14"
-			"fgcolor_override"	"loop_offwhite"
 			"wrap"			"1"
+			
+			"font"				"futura-book-12"
+			"fgcolor_override"	"loop_offwhite"
+			
 			"noshortcutsyntax" "1"
 		}
 
@@ -133,7 +132,7 @@
 			"ypos"			"23"
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
@@ -417,9 +416,9 @@
 		"enabled"		"1"
 		"border"		"outline_basic_primary"
 
-		"paintBorder"			"1"
+		"paintBorder"			"0"
 		"paintBackgroundType"	"0"
-		"bgcolor_override"		"loop_black_196"
+		"bgcolor_override"		"loop_black"
 				
 		"FailedIcon"
 		{
@@ -449,9 +448,9 @@
 			"textAlignment"	"west"
 			
 			
-			"font"			"futura-heavy-20"
+			"font"			"futura-heavy-14"
 			"wrap"			"1"
-			"fgcolor_override"	"200 30 30 255"
+			"fgcolor_override"	"loop_health"
 		}
 		
 		"FailedReason"
@@ -467,10 +466,9 @@
 			"labelText"		"%FailedReason%"
 			"textAlignment"	"north-west"
 			
-			
-			"font"			"futura-demi-14"
-			"wrap"			"1"
+			"font"			"futura-book-12"
 			"fgcolor_override"	"loop_offwhite"
+			"wrap"			"1"
 		}		
 	}
 	
@@ -486,6 +484,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"TFFatLineBorderOpaque"
+
+		"paintBorder"	"0"
+		"bgcolor_override"	"loop_black"
 				
 		"FailedIcon"
 		{
@@ -515,9 +516,9 @@
 			"textAlignment"	"west"
 			
 			
-			"font"			"ScoreboardSmall"
+			"font"			"futura-heavy-14"
 			"wrap"			"1"
-			"fgcolor_override"	"200 30 30 255"
+			"fgcolor_override"	"loop_health"
 		}
 		
 		"FailedReason"
@@ -532,12 +533,14 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"north-west"
-			
-			
-			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			
+			"font"			"futura-book-12"
+			"fgcolor_override"	"loop_offwhite"
+			
 		}		
+
+		
 	}
 	
 	"VoteSetupDialog"
@@ -551,9 +554,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"settitlebarvisible" "0"
-		"border"		"outline_basic_primary"
+		"border"			"outline_basic_primary"
 
-		"paintBorder"			"1"
+		"paintBorder"			"0"
 		"paintBackgroundType"	"0"
 		"PaintBackground"		"1"
 		"bgcolor_override"		"loop_black"
@@ -576,15 +579,35 @@
 			"font"			"futura-extrabold-20"
 			"labelText"		"#TF_Vote_Title"
 			"textAlignment"	"north"
-			"fgcolor"		"loop_primary"
+			"fgcolor"		"loop_black"
 			"xpos"			"0"
 			"ypos"			"10"
+			"zpos"			"2"
 			"wide"			"400"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"0"
 		}
+
+		"TitleBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TitleBG"
+			"xpos"			"cs-0.5+10"
+			"ypos"			"-3"
+			"zpos"			"1"
+			"wide"			"240"
+			"tall"			"60"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"	
+			"image"			"replay/thumbnails/loophud_ui/titlebar_orange"
+
+			"proportionaltoparent"	"1"
+		}	
+
+
 									
 		"VoteSetupList"
 		{
@@ -598,26 +621,53 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"autoresize"	"0"
 			
 			"linespacing"	"16"
 		}
 		
 		"VoteParameterList"
 		{
-			"ControlName"		"SectionedListPanel"
+			"ControlName"	"SectionedListPanel"
 			"fieldName"		"VoteParameterList"
-			"xpos"		"190"
-			"ypos"		"38"
-			"zpos"		"2"
-			"wide"		"200"
-			"tall"		"200"
+			"xpos"			"190"
+			"ypos"			"38"
+			"zpos"			"2"
+			"wide"			"200"
+			"tall"			"200"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"autoresize"	"0"
 			"linespacing"	"16"
+
+			"ScrollBar" 
+			{
+				"FieldName"		"ScrollBar"
+				"xpos"			"rs1"
+				"ypos"			"0"
+				"tall"			"f0"
+				"wide"			"5" // This gets slammed from client schme.  GG.
+				"zpos"			"1000"
+				"nobuttons"		"1"
+				"proportionaltoparent"	"1"
+
+				"Slider"
+				{
+					"fgcolor_override"	"241 102  24 255"
+				}
+			
+				"UpButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"UpButton"
+					"visible"		"0"
+				}
+			
+				"DownButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"DownButton"
+					"visible"		"0"
+				}
+			}
 		}
 
 		"ComboLabel"
@@ -667,17 +717,17 @@
 			
 		"CallVoteButton"
 		{
-			"ControlName"	"Button"
+			"ControlName"	"CExButton"
 			"fieldName"		"CallVoteButton"
-			"xpos"		"75"
+			"xpos"		"cs-1-5"
 			"ypos"		"275"
-			"wide"		"160"
+			"wide"		"80"
 			"tall"		"24"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"0"
 			"tabPosition"	"4"
-			"paintBackground"	"1"
+			"paintBackground"	"0"
 			"paintBorder"		"1"
 			"roundedcorners"	"0"
 			"labelText"		"#TF_call_vote"
@@ -692,12 +742,15 @@
 
 			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
+
+			"proportionaltoparent"	"1"
 		}
-		"Button1"
+		
+		"Button1"  // close button
 		{
-			"ControlName"	"Button"
+			"ControlName"	"CExButton"
 			"fieldName"		"Button1"
-			"xpos"		"240"
+			"xpos"		"c5"
 			"ypos"		"275"
 			"wide"		"80"
 			"tall"		"24"
@@ -705,7 +758,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"4"
-			"paintBackground"	"1"
+			"paintBackground"	"0"
 			"paintBorder"		"1"
 			"roundedcorners"	"0"
 			"labelText"		"#GameUI_Close"
@@ -720,6 +773,8 @@
 
 			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
+
+			"proportionaltoparent"	"1"
 		}
 	}
 }

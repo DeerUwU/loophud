@@ -353,22 +353,16 @@ Scheme
 		ScrollBarSlider.FgColor				"Gray"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
 
-		SectionedListPanel.HeaderTextColor	"Orange"
+		SectionedListPanel.HeaderTextColor	"loop_primary"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"Orange"
-		SectionedListPanel.BrightTextColor	"Orange"
+		SectionedListPanel.TextColor		"loop_primary"
+		SectionedListPanel.BrightTextColor	"loop_primary"
 		SectionedListPanel.BgColor			"TransparentLightBlack"
-		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"Red"
+		SectionedListPanel.SelectedTextColor			"loop_black"
+		SectionedListPanel.SelectedBgColor				"loop_primary"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
-
-		Slider.NobColor				"loop_primary"
-		Slider.TextColor			"loop_offwhite"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"loop_black"
 
 		TextEntry.TextColor			"Gray"
 		TextEntry.BgColor			"Blank"
@@ -1935,19 +1929,19 @@ Scheme
 		ScrollBarButtonBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 
 		ScrollBarButtonDepressedBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 
 		ButtonBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)

@@ -98,7 +98,7 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		"border"		"MainMenuBGBorder"
+		"border"		"noise_basic_orange"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -114,13 +114,11 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"loop_black"
 			"centerwrap"	"1"
 		}
 	}

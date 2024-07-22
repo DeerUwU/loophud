@@ -55,7 +55,7 @@ Scheme
 		FrameTitleButton.FgColor		"loop_secondary" //close button
 		FrameTitleBar.Font				"futura-heavy-10"		[$WIN32]
 		FrameTitleBar.TextColor			"loop_primary"
-		FrameTitleBar.DisabledTextColor	"loop_primary_dark"
+		FrameTitleBar.DisabledTextColor	"loop_primary"
 
 		Button.TextColor				"loop_offwhite"
 		Button.ArmedTextColor			"loop_black"
@@ -98,7 +98,7 @@ Scheme
 		Label.TextBrightColor			"loop_offwhite"
 		Label.SelectedTextColor			"loop_black"
 		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"loop_primary_dark"	
+		Label.DisabledFgColor1			"loop_primary_64"	
 		Label.DisabledFgColor2			"Blank"	
 		
 		ListPanel.TextColor					"loop_offwhite"

@@ -149,45 +149,74 @@
 
 	
 
-	"teambutton2" //auto select team
+	"teambutton2custom" //auto select team
 	{
-		"ControlName"	"CTFTeamButton"
-		"fieldName"		"teambutton2"
-		"xpos"			"c-290"
-		"ypos"			"101"
-		"zpos"			"-6"
-		"wide"			"124"
-		"tall"			"310"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"1"
-		"labelText"		"&1"
-		"textAlignment"	"south-west"
-		
-		"paintborder"	"0"
-		"command"		"jointeam auto"
-		"associated_model"	"autodoor"
-		"font"			"MenuMainTitle"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	"SpectateButton" //team spectator
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"SpectateButton"
-		"xpos"			"c-370"
-		"ypos"			"rs1-10"
+		"ControlName"	"CImageButton"
+		"fieldName"		"teambutton2custom"
+		"xpos"			"66"
+		"ypos"			"rs1-27"
 		"zpos"			"6"
-		"wide"			"60"
+		"wide"			"70"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"SPECTATE"
-		"textAlignment"	"Center"
+		"labelText"		"Auto Join"
+		"textAlignment"	"west"
+
+		"command"			"jointeam auto"
+		"font"				"futura-demi-14"
+
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick_back.wav"
+
+		"paintbackground"	"1"
+		"paintborder"		"0"
+		"scaleImage"		"1"
+
+		"bgcolor_override"	"0 0 0 0"
+		"defaultfgcolor"	"loop_offwhite"
+		"armedfgcolor"		"loop_primary"
+
+		"inactivedrawcolor"	"loop_black"
+		"activedrawcolor"	"loop_primary"
+
+		"inactiveimage"		"replay/thumbnails/loophud_ui/brush_onesided_ltr"
+		"activeimage"		"replay/thumbnails/loophud_ui/brush_onesided_ltr"
+	}
+	
+	"SpectateButtontest" //team spectator
+	{
+		"ControlName"	"CImageButton"
+		"fieldName"		"SpectateButtontest"
+		"xpos"			"66"
+		"ypos"			"rs1-12"
+		"zpos"			"6"
+		"wide"			"70"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Spectate"
+		"textAlignment"	"west"
 		
-		"paintBackground"	"1"
-		"command"		"jointeam spectate"
-		"font"			"futura-demi-14"
+		"command"			"jointeam spectate"
+		"font"				"futura-demi-14"
+
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick_back.wav"
+
+		"paintbackground"	"1"
+		"paintborder"		"0"
+		"scaleImage"		"1"
+
+		"bgcolor_override"	"0 0 0 0"
+		"defaultfgcolor"	"loop_offwhite"
+		"armedfgcolor"		"loop_primary"
+
+		"inactivedrawcolor"	"loop_black"
+		"activedrawcolor"	"loop_primary"
+
+		"inactiveimage"		"replay/thumbnails/loophud_ui/brush_onesided_ltr"
+		"activeimage"		"replay/thumbnails/loophud_ui/brush_onesided_ltr"
 	}
 	
 	"BackButton"

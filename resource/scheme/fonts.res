@@ -515,36 +515,42 @@ Scheme
 
 		"10"
 		{
+			"font" "resource/fonts/IBMPlexMono-Regular.ttf"
+			"name" "IBM Plex Mono"
+		}
+
+		"11"
+		{
 			"font" "resource/fonts/IBMPlexMono-Medium.ttf"
 			"name" "IBM Plex Mono Medium"
 		}
-		"11"
+		"12"
 		{
 			"font" "resource/fonts/IBMPlexMono-SemiBold.ttf"
 			"name" "IBM Plex Mono SemiBold"
 		}
 
-		"12"
+		"13"
 		{
 			"font" "resource/fonts/FuturaCyrillicBook.ttf"
 			"name" "Futura Cyrillic Book"
 		}
-		"13"
+		"14"
 		{
 			"font" "resource/fonts/FuturaCyrillicDemi.ttf"
 			"name" "Futura Cyrillic Demi"
 		}
-		"14"
+		"15"
 		{
 			"font" "resource/fonts/FuturaCyrillicHeavy.ttf"
 			"name" "Futura Cyrillic Heavy"
 		}
-		"15"
+		"16"
 		{
 			"font" "resource/fonts/FuturaCyrillicExtraBold.ttf"
 			"name" "Futura Cyrillic Extra Bold"
 		}
-		"16"
+		"17"
 		{
 			"font" "resource/fonts/FuturaCyrillicExtraBoldOL.ttf"
 			"name" "Futura Cyrillic Extra Bold OL"

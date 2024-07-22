@@ -67,4 +67,11 @@
 		"font"					"futura-demi-30"
 		"fgcolor"				"loop_offwhite"
 	}
+
+	"ItemEffectMeter" 
+	{
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"xpos"					"9999"
+	}
 }

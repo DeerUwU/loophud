@@ -170,8 +170,8 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"20"
+		"xpos"			"c-290"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"15"
@@ -184,11 +184,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"futura-extrabold-20"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"c-280"
-		"ypos"			"15"
+		"xpos"			"c-270"
+		"ypos"			"35"
 		"zpos"			"1"
 		"wide"			"210"
 		"tall"			"25"
@@ -273,27 +273,30 @@
 		"autoResize"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"loop_offwhite"
 	}
 
 	"NameFilterTextEntry"
 	{
-		"ControlName"		"TextEntry"
+		"ControlName"	"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"c+137"
-		"ypos"		"15"
-		"wide"		"90"
-		"tall"		"19"
+		"xpos"			"c+137"
+		"ypos"			"15"
+		"wide"			"90"
+		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"1"
-		"textHidden"		"0"
+		"tabPosition"	"1"
+		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"117 107 94 255"
 		"bgcolor_override"	"loop_offwhite"
-		"paintbackgroundtype" "2"
+		
 		"font"		"futura-book-16"
+
+		"roundedcorners"		"0"
+		"paintbackgroundtype" 	"0"
 	}
 	
 	"SortByComboBox"
@@ -333,11 +336,14 @@
 		"zpos"			"102"
 		"wide"			"300"
 		"tall"			"300"
-		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"visible"		"1"
+		"bgcolor_override"		"loop_black"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"PaintBackgroundType"	"0"
+		"paintborder"		"1"
+		"paintBackground"	"1"
+
+		"border"	"noise_basic_black"
 		
 		"text_center"		"1"
 		"model_hide"		"1"
@@ -358,6 +364,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
+			"border"	"noise_basic_black"
 		}
 	}
 	
@@ -406,11 +413,33 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		
-		
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}	
+	"PrevPagehotkey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPagehotkey"
+		"xpos"			"20"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"labelText"		"&A"
+		"font"			"futura-heavy-14"
+		"fgcolor"		"loop_offwhite"
+
+		"textAlignment"	"center"
+		"Command"		"prevpage"
+		"paintbackground"	"0"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling"	"PrevPageButton"
+	}	
 	
 	"CurPageLabel"
 	{
@@ -449,7 +478,30 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
+	"NextPagehotkey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NextPagehotkey"
+		"xpos"			"-20"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"labelText"		"&D"
+		"font"			"futura-heavy-14"
+		"fgcolor"		"loop_offwhite"
+
+		"textAlignment"		"center"
+		"Command"			"nextpage"
+		"paintbackground"	"0"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling"	"NextPageButton"
+	}	
 	
 	"DragToNextPageButton"
 	{

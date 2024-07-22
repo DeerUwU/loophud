@@ -1,3 +1,4 @@
+#base "loop_base/backpack_bg.res"
 "Resource/UI/StorePanel.res"
 {
 	"store_panel"
@@ -127,7 +128,6 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"

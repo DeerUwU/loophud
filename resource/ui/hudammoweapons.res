@@ -17,38 +17,43 @@
 		"image"			"replay/thumbnails/loophud_ui/hudplayerclass/ammo_bg"
 	}	
 
-	"HudWeaponLowAmmoImage"
+	"HudWeaponLowAmmoImage" //this grows when ammo is lower
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
 		"xpos"			"9999"
-		"ypos"			"rs1-16"	
-		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"75"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		// "alpha"			"255"
-		"proportionaltoparent"	"1"
-
-		"image"				"replay/thumbnails/loophud_ui/hudplayerclass/ammo_bg_low"
-	}
-	"CustomHudWeaponLowAmmoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CustomHudWeaponLowAmmoImage"
-		"xpos"			"cs+1+20"
-		"ypos"			"rs1-16"	
-		"zpos"			"2"
+		"ypos"			"0"	
+		"zpos"			"-4"
 		"wide"			"150"
 		"tall"			"75"
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
+		"alpha"			"255"
 		"proportionaltoparent"	"1"
 
 		"image"				"replay/thumbnails/loophud_ui/hudplayerclass/ammo_bg_low"
+
+		"pin_to_sibling"	"CustomAmmoBG2"
+	}
+	"CustomHudWeaponLowAmmoImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CustomHudWeaponLowAmmoImage"
+		"xpos"			"0"
+		"ypos"			"0"	
+		"zpos"			"-4"
+		"wide"			"150"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"alpha"			"0"
+		"scaleImage"	"1"	
+		"proportionaltoparent"	"1"
+
+		"image"				"replay/thumbnails/loophud_ui/hudplayerclass/ammo_bg_low"
+
+		"pin_to_sibling"	"CustomAmmoBG2"
 	}
 	"AmmoInClip"
 	{

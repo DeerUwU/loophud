@@ -1,4 +1,5 @@
-"Resource/UI/StatPanel_PlayTime.res"
+"Resource/UI/StatPanel_PlayTime.res" 
+//ingame "on the bright side" 
 {
 	"StatPanelBG"
 	{

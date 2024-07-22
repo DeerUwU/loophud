@@ -1,3 +1,4 @@
+#base "loop_base/backpack_bg.res"
 "Resource/UI/CharInfoArmorySubPanel.res"
 {
 	"armory_panel"

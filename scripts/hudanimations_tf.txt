@@ -185,6 +185,8 @@ event KeyHintMessageShow
 	// show the hints
 	Animate HudHintKeyDisplay Alpha	255 Linear 0.0 0.5
 
+	SetFont HudHintDisplay 	  Font  "futura-demi-10"  0.0
+
 	// flash text
 	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 0.0 0.01
 	Animate HudHintKeyDisplay FgColor	"255 220 0 255" Linear 0.5 0.2

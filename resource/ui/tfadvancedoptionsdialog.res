@@ -22,6 +22,36 @@
 		"slider_w"			"500"
 		"slider_h"			"25"
 	}
+	"OrangeBorder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OrangeBorder"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"480"
+		"visible"		"1"
+		
+		"fillcolor"		"loop_primary"
+		"PaintBackgroundType"	"0"
+		"proportionaltoparent"	"1"
+	}
+	"OrangeBorder2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OrangeBorder2"
+		"xpos"			"rs1"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"1"
+		"tall"			"480"
+		"visible"		"1"
+		
+		"fillcolor"		"loop_primary"
+		"PaintBackgroundType"	"0"
+		"proportionaltoparent"	"1"
+	}
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -31,12 +61,29 @@
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"40"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"500"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "loop_primary"
+		"fgcolor_override" "loop_black"
+	}
+	"TitleLabelBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TitleLabelBG"
+		"xpos"			"cs-0.5"
+		"ypos"			"48"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"drawcolor"		"loop_primary"
+		"image"			"replay/thumbnails/loophud_ui/long_brushstroke_2"
+
+		"proportionaltoparent"	"1"
 	}
 
 	
@@ -47,7 +94,7 @@
 		"xpos"		"10"
 		"ypos"		"80"
 		"wide"		"480"
-		"tall"		"300"
+		"tall"		"330"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
@@ -59,7 +106,7 @@
 			"ypos"			"0"
 			"tall"			"f0"
 			"wide"			"5" // This gets slammed from client schme.  GG.
-			"zpos"			"1000"
+			"zpos"			"1"
 			"nobuttons"		"1"
 			"proportionaltoparent"	"1"
 
@@ -87,7 +134,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"c-105"
-		"ypos"			"390"
+		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"25"
@@ -113,7 +160,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"OkButton"
 		"xpos"			"c5"
-		"ypos"			"390"
+		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"25"
@@ -126,7 +173,7 @@
 		
 		"default"		"1"
 		"Command"		"Ok"
-
+ 
 		"paintBackground"	"0"
 		"border_default"    "noise_basic_black"
         "border_armed"      "noise_basic_orange"
@@ -146,8 +193,10 @@
 		"wide"			"240"
 		"tall"			"50"
 		"visible"		"0"
+
 		"PaintBackgroundType"	"0"
-		"paintBorder"	"0"
+		"roundedcorners"		"0"
+		"paintBorder"			"0"
 		"bgcolor_override"	"loop_primary_dark"
 		
 		"border"		"MainMenuBGBorder"

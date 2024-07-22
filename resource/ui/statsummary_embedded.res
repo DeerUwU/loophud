@@ -75,12 +75,13 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"	"StatData"
 		"xpos"		"0"
-		"ypos"		"-130"
+		"ypos"		"-100"
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
 		"visible"	"1"
 		"enabled"	"1"
+
 
 		"NonInteractiveHeaders"
 		{
@@ -98,7 +99,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
-				"font"			"ScoreboardVerySmall"
+				"font"			"futura-book-12"
 				
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
@@ -115,7 +116,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
-				"font"			"ScoreboardVerySmall"
+				"font"			"futura-book-12"
 				
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
@@ -135,13 +136,11 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"ScoreboardVerySmall"
+				"font"			"futura-book-12"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c+130"
-				"xpos_hidef"			"c+110"
 				"ypos"			"200"
-				"ypos_hidef"			"150"
 				"zpos"			"5"
 				"wide"			"200"
 				"tall"			"20"
@@ -183,14 +182,13 @@
 			}
 			"BarChartComboB"
 			{
-				"ControlName"		"ComboBox"
+				"ControlName"	"ComboBox"
 				"fieldName"		"BarChartComboB"
 				"xpos"		"c-127"
 				"ypos"		"212"
 				"zpos"		"10"
 				"wide"		"154"
 				"tall"		"14"
-				"autoResize"		"0"
 				
 				"visible"		"1"
 				"enabled"		"1"
@@ -210,12 +208,12 @@
 				"zpos"		"10"
 				"wide"		"167"
 				"tall"		"14"
-				"autoResize"		"0"
+				"autoResize"	"0"
 				
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"		"1"
-				"textHidden"		"0"
+				"tabPosition"	"1"
+				"textHidden"	"0"
 				"editable"		"0"
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
@@ -226,32 +224,90 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"AveragesBG"
-			"xpos"			"c-295"
+			"xpos"			"0"
 			"ypos"			"165"
-			"wide"			"406"
-			"tall"			"300"
+			"wide"			"f0"
+			"tall"			"260"
 			
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"loop_black_196"
+			"fillcolor"		"loop_black"
 			"paintBackground"	"1"
 			// "border"		"loop_Grey_Filled"
 		}
+
+		"OrangeBorder"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"OrangeBorder"
+			"xpos"			"cs-0.5"
+			"ypos"			"165"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"1"
+			"visible"		"1"
+			
+			"fillcolor"		"loop_primary"
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+		}
+		"OrangeBorder2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"OrangeBorder2"
+			"xpos"			"cs-0.5"
+			"ypos"			"425"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"1"
+			"visible"		"1"
+			
+			"fillcolor"		"loop_primary"
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+		}
+
+		"AveragesLabelBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"AveragesLabelBG"
+			"xpos"			"c-275"
+			"ypos"			"170"
+			"zpos"			"1"
+			"wide"			"300"
+			"tall"			"30"
+			
+			"visible"		"1"
+			"enabled"		"1"
+
+			"PaintBackgroundType"	"0"
+			"scaleImage"			"1"
+
+			"image"		"replay/thumbnails/loophud_ui/long_brushstroke_2"
+			"drawcolor"	"loop_primary"
+		}	
 		"AveragesLabel"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"AveragesLabel"
 			"font"			"futura-extrabold-20"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
-			"textAlignment"		"west"
-			"xpos"			"c-285"
-			"ypos"			"170"
+			"textAlignment"	"center"
+			"fgcolor_override"	"loop_black"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
 			"wide"			"300"
 			"tall"			"20"
 			
 			"visible"		"1"
 			"enabled"		"1"
+
+			"pin_to_sibling"	"AveragesLabelBG"
 		}
+
+
+
 		"ClassBarBG1A"
 		{
 			"ControlName"		"ImagePanel"
@@ -259,12 +315,9 @@
 			"xpos"			"c-285"
 			
 			"ypos"			"230"
-			"ypos_hidef"			"67"
-			"ypos_lodef"			"67"
 			"zpos"			"2"
 			"wide"			"312"
 			"tall"			"16"
-			
 			
 			"visible"		"1"
 			"enabled"		"1"
@@ -336,7 +389,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -356,7 +409,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -376,9 +429,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"ScoreboardSmall"
+			"font"			"futura-demi-12"
 			
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"futura-book-12"
 			"labelText"		"%class1%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -478,7 +531,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -498,7 +551,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -518,9 +571,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"ScoreboardSmall"
+			"font"			"futura-demi-12"
 			
-			"font_lodef"	"ScoreboardVerySmall"
+			"font_lodef"	"futura-book-12"
 			"labelText"		"%class2%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -620,7 +673,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -640,7 +693,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -660,9 +713,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"ScoreboardSmall"
+			"font"			"futura-demi-12"
 			
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"futura-book-12"
 			"labelText"		"%class3%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -762,7 +815,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -782,7 +835,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -802,9 +855,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"ScoreboardSmall"
+			"font"			"futura-demi-12"
 			
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"futura-book-12"
 			"labelText"		"%class4%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -904,7 +957,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -924,7 +977,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -944,9 +997,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"ScoreboardSmall"
+			"font"			"futura-demi-12"
 			
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"futura-book-12"
 			"labelText"		"%class5%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1046,7 +1099,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1066,7 +1119,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1086,9 +1139,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"ScoreboardSmall"
+			"font"			"futura-demi-12"
 			
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"futura-book-12"
 			"labelText"		"%class6%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1188,7 +1241,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1208,7 +1261,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1228,9 +1281,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"ScoreboardSmall"
+			"font"			"futura-demi-12"
 			
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"futura-book-12"
 			"labelText"		"%class7%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1328,7 +1381,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1347,7 +1400,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1366,9 +1419,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"ScoreboardSmall"
+			"font"			"futura-demi-12"
 			
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"futura-book-12"
 			"labelText"		"%class8%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1463,7 +1516,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1483,7 +1536,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1503,9 +1556,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"ScoreboardSmall"
+			"font"			"futura-demi-12"
 			
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"futura-book-12"
 			"labelText"		"%class9%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1521,28 +1574,28 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}		
-		"RecordsBG"
+		"RecordsBG" //not needed
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"RecordsBG"
-			"xpos"			"c+115"
+			"xpos"			"c+105"
 			"ypos"			"165"
 			"wide"			"200"
-			"tall"			"260"
+			"tall"			"300"
 			
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"	
 			// "border"		"loop_Grey_Filled"
-			"fillcolor"		"loop_black_196"
+			"fillcolor"		"loop_black"
 			"paintBackground"	"1"
 		}
 		"RecordsLabel1"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"futura-extrabold-20"
+			"font"			"futura-heavy-20"
 			"labelText"		"#StatSummary_Label_BestMoments"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"c+124"
 			"ypos"			"170"
 			"wide"			"300"
@@ -1589,7 +1642,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord1label%"
 			"textAlignment"		"west"
@@ -1607,7 +1660,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord1value%"
 			"textAlignment"		"west"
@@ -1623,7 +1676,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
@@ -1644,7 +1697,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
@@ -1665,7 +1718,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord3label%"
 			"textAlignment"		"west"
@@ -1686,7 +1739,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord3value%"
 			"textAlignment"		"west"
@@ -1707,7 +1760,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord4label%"
 			"textAlignment"		"west"
@@ -1726,7 +1779,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord4value%"
 			"textAlignment"		"west"
@@ -1747,7 +1800,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord5label%"
 			"textAlignment"		"west"
@@ -1768,7 +1821,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord5value%"
 			"textAlignment"		"west"
@@ -1789,7 +1842,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
@@ -1810,7 +1863,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord6value%"
 			"textAlignment"		"west"
@@ -1826,7 +1879,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord7label%"
 			"textAlignment"		"west"
@@ -1842,7 +1895,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord7value%"
 			"textAlignment"		"west"
@@ -1858,7 +1911,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord8label%"
 			"textAlignment"		"west"
@@ -1879,7 +1932,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord8value%"
 			"textAlignment"		"west"
@@ -1900,7 +1953,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord9label%"
 			"textAlignment"		"west"
@@ -1916,7 +1969,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
@@ -1932,7 +1985,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord10label%"
 			"textAlignment"		"west"
@@ -1948,7 +2001,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord10value%"
 			"textAlignment"		"west"
@@ -1967,7 +2020,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord11label%"
 			"textAlignment"		"west"
@@ -1988,7 +2041,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord11value%"
 			"textAlignment"		"west"
@@ -2009,7 +2062,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"
@@ -2030,7 +2083,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord12value%"
 			"textAlignment"		"west"
@@ -2051,7 +2104,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord13label%"
 			"textAlignment"		"west"
@@ -2072,7 +2125,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord13value%"
 			"textAlignment"		"west"
@@ -2093,7 +2146,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord14label%"
 			"textAlignment"		"west"
@@ -2114,7 +2167,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord14value%"
 			"textAlignment"		"west"
@@ -2135,7 +2188,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord15label%"
 			"textAlignment"		"west"
@@ -2156,7 +2209,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"futura-book-12"
 			
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"
@@ -2190,12 +2243,12 @@
 	}
 	"TipText"
 	{
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TipText"
-		"font"			"ScoreboardVerySmall"
+		"font"			"futura-book-12"
 		
 		"labelText"		"%tiptext%"
-		"textAlignment"			"west"
+		"textAlignment"	"west"
 		"xpos"			"9999"
 		"ypos"			"263"
 		"zpos"			"12"

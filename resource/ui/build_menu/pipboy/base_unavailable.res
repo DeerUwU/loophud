@@ -4,21 +4,17 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Default"
 		"xpos"			"6"
-		"ypos"			"0"
+		"ypos"			"13"
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"		"#TF_Object_Sentry_360"
-		"textAlignment"	"Left"
-		
-		"fgcolor"		"0 255 0 255"
+		"textAlignment"	"center"
+		"font"			"futura-demi-10"
+		"fgcolor"		"loop_offwhite"
 	}
 	
 	"ItemBackground"	
@@ -34,7 +30,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"ProgressOffWhiteTransparent"
 	}
 	
 	"CantBuildReason"
@@ -47,13 +43,10 @@
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Unavailable"
 		"textAlignment"	"Center"
-		
 	}
 	
 	"MetalIcon"	
@@ -69,7 +62,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"TanDark"
 	}
 	
 	"CostLabel"
@@ -77,7 +70,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"HudFontSmall"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"TanDark"
 		"xpos"			"23"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -102,8 +95,6 @@
 		"zpos"			"1"
 		"wide"			"44"
 		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
@@ -123,28 +114,23 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
-		"fgcolor"		"Black"
+		"font"			"futura-heavy-10"
+		"fgcolor"		"loop_black"
 		"xpos"			"0"
 		"ypos"			"98"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"Center"
-		"dulltext"		"1"
-		
-		"fgcolor"		"0 255 0 255"
 	}
 }

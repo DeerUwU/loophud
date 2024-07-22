@@ -23,7 +23,7 @@
 		"proportionaltoparent"	"1"
 	}
 
-	"itempanel"
+	"itempanel" 
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
@@ -33,13 +33,18 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"loop_black"
 		"PaintBackgroundType"	"0"
+		"paintBorder"		"0"
+		"paintBackground"	"1"
 		
-		"model_ypos"		"10"
-		"model_center_x"	"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
+		"model_ypos"			"20"
+		"model_center_y"        "1"
+		"model_center_x"        "1"
+		"model_wide"            "80"
+		"model_tall"            "50"
+		"noitem_use_fullpanel"  "0"
+		"resize_to_text"        "1"
 		
 		"text_xpos"		"10"
 		"text_ypos"		"10"
@@ -68,16 +73,14 @@
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"west"
+			"textAlignment"	"Left"
 			
 			
 		}
-	}		
+	}	
 	
 	"FreezePanelBase"
 	{

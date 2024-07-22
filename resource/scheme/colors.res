@@ -42,14 +42,14 @@ Scheme
 		// "loop_stats_8"				"133 113 216 255"
 		// "loop_stats_9"				"86 145 255 255"
  
-		"loop_stats_1"				"252 176 69 255"
-		"loop_stats_2"				"252 129 83 255"
-		"loop_stats_3"				"252 103 91 255"
-		"loop_stats_4"				"252 70 101 255"
-		"loop_stats_5"				"253 29 114 255"
-		"loop_stats_6"				"213 57 148 255"
-		"loop_stats_7"				"170 87 185 255"
-		"loop_stats_8"				"133 113 216 255"
-		"loop_stats_9"				"86 145 255 255"
+		"loop_stats_1"				"241 102 24 255"
+		"loop_stats_2"				"228 96 23 255"
+		"loop_stats_3"				"214 90 21 255"
+		"loop_stats_4"				"198 84 20 255"
+		"loop_stats_5"				"181 76 18 255"
+		"loop_stats_6"				"162 68 17 255"
+		"loop_stats_7"				"138 58 15 255"
+		"loop_stats_8"				"109 46 13 255"
+		"loop_stats_9"				"62 26 11 255"
 	}
 }

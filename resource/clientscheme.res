@@ -52,6 +52,8 @@ Scheme
 		Slider.TrackColor			"loop_primary_dark"
 		Slider.DisabledTextColor1	"loop_primary_dark"
         Slider.DisabledTextColor2	"Blank"
+
+		
     }
 
 

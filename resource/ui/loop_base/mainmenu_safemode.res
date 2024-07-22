@@ -1973,5 +1973,19 @@
             "border_armed"		"noise_basic_orange"
             "paintbackground"	"0"
         }
+        "LeaveSafeModeHotkey"
+        {
+            "ControlName"	"CExButton"
+            "fieldName"		"LeaveSafeModeHotkey"
+            "xpos"			"9999"
+            "ypos"			"0"
+            "wide"			"150"
+            "tall"			"26"
+            "visible"		"1"
+            "enabled"		"1"
+            "labeltext"		"&esc"
+            "command"		"engine cl_mainmenu_safemode 0"
+            "actionsignallevel"	"2"
+        }
 	} // SafeMode
 }

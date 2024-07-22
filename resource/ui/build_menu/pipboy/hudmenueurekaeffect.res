@@ -9,79 +9,111 @@
 		"zpos"			"0"
 		"wide"			"250"
 		"tall"			"170"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"paintbackground" "0"
+		"icon"			"hud_menu_bg"
+		"iconColor"		"255 255 255 255"
+	}
+	
+	"taunt_bg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"taunt_bg"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5+80"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"100"
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/loophud_ui/ingame_hud_strip"
+
+		"proportionaltoparent"	"1"
+	}
+	"taunt_bg2" //too lazy to edit alpha on this fucking image again
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"taunt_bg2"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5+80"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"100"
+		"scaleImage"	"1"
+		"alpha"	"196"
+		"image"			"replay/thumbnails/loophud_ui/ingame_hud_strip"
+
+		"proportionaltoparent"	"1"
 	}
 
-	"ItemBackground"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemBackground"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"250"
-		"tall"			"180"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"pipboy_overlay"
-		"tileImage"		"1"
-		"drawcolor"		"192 192 192 255"
-	}
-	"BackgroundEngineer"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BackgroundEngineer"
-		"xpos"			"205"
-		"ypos"			"140"
-		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"pipboy_engineer"
-		"tileImage"		"0"
-		"tileVertically" "0"
-	}
 
 	"BuildIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
-		"xpos"			"15"
-		"ypos"			"-8"
+		"xpos"			"10"
+		"ypos"			"cs-0.5+80"
 		"zpos"			"1"
+		"wide"			"50"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_build"
+		"iconColor"		"255 255 255 255"
+	}
+	
+	"BuildIconShadow"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"BuildIconShadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"0"
 		"wide"			"48"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"0 0 0 255"
+		"pin_to_sibling"	"BuildIcon"
 	}
 	
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiant"
-		"xpos"			"68"			// align me to the left edge of the first selection
-		"ypos"			"8"
-		"zpos"			"2"
-		"wide"			"300"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"loop_offwhite"
+		"xpos"			"70"
+		"ypos"			"cs-0.5+80"
+		"zpos"			"3"
+		"wide"			"200"
 		"tall"			"38"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		
-		"fgcolor"		"0 255 0 255"
+	}
+	
+	"TitleLabelDropshadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelDropshadow"
+		"font"			"HudFontGiantBold"
+		"fgcolor"		"loop_black"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"3"
+		"wide"			"200"
+		"tall"			"38"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_Menu_Teleport_Title"
+		"textAlignment"	"west"
+		"pin_to_sibling"	"TitleLabel"
 	}
 	
 	"CancelLabel"
@@ -94,34 +126,32 @@
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"East"
 		
-		"fgcolor"		"0 255 0 255"
 	}
 	
 	"available_target_1"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"available_target_1"
-		"xpos"			"25"
-		"ypos"			"47"
+		"xpos"			"cs-1-10"
+		"ypos"			"cs-0.5+80"
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
+		"proportionaltoparent"	"1"
 	}	
 	
 	"available_target_2"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"available_target_2"
-		"xpos"			"125"
-		"ypos"			"47"
+		"xpos"			"c+10"
+		"ypos"			"cs-0.5+80"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
@@ -132,23 +162,25 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_target_1"
-		"xpos"			"25"
-		"ypos"			"47"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
+		"pin_to_sibling"	"available_target_1"
 	}	
 	
 	"unavailable_target_2"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_target_2"
-		"xpos"			"125"
-		"ypos"			"47"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
+		"pin_to_sibling"	"available_target_2"
 	}	
 }

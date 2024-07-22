@@ -24,43 +24,7 @@
 		"proportionaltoparent"	"0"
 	}
 
-	"Gradient_top"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Gradient_top"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"f0"
-		"tall"		"40"
-		"zpos"		"-10"
-		"visible"		"1"
-		"enabled"		"1"
-		"rotation"		"3"
-		"scaleimage"		"1"
-		"mouseinputenabled"	"0"
-		"alpha"				"150"
 
-		"image"		"gradient_pure_black"
-	}
-
-	"Gradient_bottom"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Gradient_bottom"
-		"xpos"		"0"
-		"ypos"		"rs1"
-		"wide"		"f0"
-		"tall"		"40"
-		"zpos"		"-10"
-		"visible"		"1"
-		"enabled"		"1"
-		"rotation"		"0"
-		"scaleimage"		"1"
-		"mouseinputenabled"	"0"
-		"alpha"				"150"
-
-		"image"		"gradient_pure_black"
-	}
 
 	"specgui"
 	{
@@ -260,7 +224,7 @@
 		"font"			"SpectatorKeyHints"
 		"wrap"			"1"
 	}
-	"itempanel"
+	"itempanel" 
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
@@ -270,13 +234,18 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"loop_black_196"
 		"PaintBackgroundType"	"0"
+		"paintBorder"		"0"
+		"paintBackground"	"1"
 		
-		"model_ypos"		"10"
-		"model_center_x"	"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
+		"model_ypos"			"20"
+		"model_center_y"        "1"
+		"model_center_x"        "1"
+		"model_wide"            "80"
+		"model_tall"            "50"
+		"noitem_use_fullpanel"  "0"
+		"resize_to_text"        "1"
 		
 		"text_xpos"		"10"
 		"text_ypos"		"10"

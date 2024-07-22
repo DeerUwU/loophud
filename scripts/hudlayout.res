@@ -219,7 +219,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"ypos"		"rs1"
+		"ypos"		"rs1+16"
 		"wide"		"400"
 		"tall"		"100"
 	}
