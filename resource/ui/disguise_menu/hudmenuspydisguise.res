@@ -381,8 +381,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
-		"xpos"			"75"
-		"ypos"			"140"
+		"xpos"			"-15"
+		"ypos"			"-90"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
@@ -391,6 +391,8 @@
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
+
+		"pin_to_sibling"	"class_item_red_2"
 	}
 	
 	"NumberLabel1"
@@ -399,8 +401,8 @@
 		"fieldName"		"NumberLabel"
 		"font"			"Default"
 		"fgcolor"		"Black"
-		"xpos"			"75"
-		"ypos"			"140"
+		"xpos"			"-15"
+		"ypos"			"-90"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -411,15 +413,16 @@
 		"labelText"		"1"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
-		
+
+		"pin_to_sibling"	"class_item_red_2"
 	}
 
 	"NumberBg2"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
-		"xpos"			"227"
-		"ypos"			"140"
+		"xpos"			"-15"
+		"ypos"			"-90"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
@@ -428,6 +431,8 @@
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
+
+		"pin_to_sibling"	"class_item_red_5"
 	}
 	
 	"NumberLabel2"
@@ -436,8 +441,8 @@
 		"fieldName"		"NumberLabel"
 		"font"			"Default"
 		"fgcolor"		"Black"
-		"xpos"			"227"
-		"ypos"			"140"
+		"xpos"			"-15"
+		"ypos"			"-90"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -448,6 +453,8 @@
 		"labelText"		"2"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
+
+		"pin_to_sibling"	"class_item_red_5"
 		
 	}
 	
@@ -455,8 +462,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
-		"xpos"			"379"
-		"ypos"			"140"
+		"xpos"			"-15"
+		"ypos"			"-90"
 		"zpos"			"4"
 		"wide"			"15"
 		"tall"			"15"
@@ -465,6 +472,8 @@
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
+
+		"pin_to_sibling"	"class_item_red_8"
 	}
 	
 	"NumberLabel3"
@@ -473,8 +482,8 @@
 		"fieldName"		"NumberLabel"
 		"font"			"Default"
 		"fgcolor"		"Black"
-		"xpos"			"379"
-		"ypos"			"140"
+		"xpos"			"-15"
+		"ypos"			"-90"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -485,6 +494,8 @@
 		"labelText"		"3"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
+
+		"pin_to_sibling"	"class_item_red_8"
 		
 	}
 }
