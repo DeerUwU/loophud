@@ -84,6 +84,14 @@
 		"tooltip" 		"Replays"
 	}
 
+	"ConsoleButton"
+	{
+		"label"			">_"
+		"command"		"engine toggleconsole"
+		"subimage" 		""
+		"tooltip" 		"Console"
+	}
+
 
 	"SafeModeButton"
 	{
