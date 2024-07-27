@@ -195,16 +195,6 @@ Scheme
 			}
 		}
 
-		"Default" [$OSX]
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"500"
-			}
-		}
-
 		"ServerBrowserSmall"
 		{
 			"1"

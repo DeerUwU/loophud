@@ -53,6 +53,25 @@ Scheme
 		Slider.DisabledTextColor1	"loop_primary_dark"
         Slider.DisabledTextColor2	"Blank"
 
+
+		SectionedListPanel.HeaderTextColor	"loop_primary"
+		SectionedListPanel.HeaderBgColor	"Blank"
+		SectionedListPanel.DividerColor		"Black"
+		SectionedListPanel.TextColor		"loop_primary"
+		SectionedListPanel.BrightTextColor	"loop_primary"
+		SectionedListPanel.BgColor			"TransparentLightBlack"
+		SectionedListPanel.SelectedTextColor			"loop_black"
+		SectionedListPanel.SelectedBgColor				"loop_primary"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"loop_black"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"loop_primary_64" //active clicked in player lists 
+
+
+
+		// CHudMenu
+		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
+		"MenuColor"		"233 208 173 255"
+		"MenuBoxBg"		"0 0 0 100"
+
 		
     }
 
@@ -62,6 +81,69 @@ Scheme
 
     Fonts
     {
+
+		"Default"
+		{
+			"1"
+			{
+				"name"		"Futura Cyrillic Demi"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Futura Cyrillic Demi"
+				"tall"		"13"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Futura Cyrillic Demi"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Futura Cyrillic Demi"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Futura Cyrillic Demi"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+
+			
+		}
 
         ////////////////////////////////////////////////////
         // ECON fonts

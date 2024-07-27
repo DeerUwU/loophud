@@ -12,6 +12,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"freezepanel_frame"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"zpos"			"-10"
@@ -20,20 +22,20 @@
 		"drawcolor"		"loop_black"
 		"image"			"replay/thumbnails/loophud_ui/killcam_frame"
 
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 	}
 
 	"itempanel" 
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r200"
+		"xpos"			"9999" //r200
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"loop_black"
+		"bgcolor_override"		"loop_black_196"
 		"PaintBackgroundType"	"0"
 		"paintBorder"		"0"
 		"paintBackground"	"1"

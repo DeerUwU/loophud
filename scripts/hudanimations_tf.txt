@@ -77,7 +77,8 @@ event CloseWeaponSelectionMenu
 event MenuOpen
 {
 	StopEvent	MenuClose 0.0 
-
+	SetFont HudMenu 	  TextFont "futura-demi-10"  0.001
+	SetFont HudMenu 	  ItemFont "futura-demi-10"  0.001
 	// fade in
 	Animate HudMenu Alpha 		"255"		Linear 0.0 0.1
 	Animate HudMenu SelectionAlpha 	"255"		Linear 0.0 0.1
@@ -185,7 +186,7 @@ event KeyHintMessageShow
 	// show the hints
 	Animate HudHintKeyDisplay Alpha	255 Linear 0.0 0.5
 
-	SetFont HudHintDisplay 	  Font  "futura-demi-10"  0.0
+	SetFont HudHintDisplay 	  ItemFont "futura-demi-10"  0.001
 
 	// flash text
 	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 0.0 0.01

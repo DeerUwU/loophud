@@ -8,7 +8,7 @@
 		"ypos"			"15"
 		"wide"			"40"
 		"tall"			"o0.75"
-		"zpos"			"1"
+		"zpos"			"10002"
 		"proportionaltoparent"	"1"	
 		"mouseinputenabled"	"0"
 
@@ -35,7 +35,7 @@
 		"ypos"			"13"
 		"wide"			"44"
 		"tall"			"34"
-		"zpos"			"0"
+		"zpos"			"10001"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"

@@ -108,6 +108,7 @@
 
 		"Scrollbar"
 		{
+			"nobuttons"	"1"
 			"wide"		"5"
 		}
 

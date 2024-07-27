@@ -353,16 +353,7 @@ Scheme
 		ScrollBarSlider.FgColor				"Gray"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
 
-		SectionedListPanel.HeaderTextColor	"loop_primary"
-		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"loop_primary"
-		SectionedListPanel.BrightTextColor	"loop_primary"
-		SectionedListPanel.BgColor			"TransparentLightBlack"
-		SectionedListPanel.SelectedTextColor			"loop_black"
-		SectionedListPanel.SelectedBgColor				"loop_primary"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"loop_black"
+
 
 		TextEntry.TextColor			"Gray"
 		TextEntry.BgColor			"Blank"
@@ -412,10 +403,7 @@ Scheme
 		"HudIcon_Green"		"0 160 0 255"
 		"HudIcon_Red"		"160 0 0 255"
 
-		// CHudMenu
-		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"		"233 208 173 255"
-		"MenuBoxBg"		"0 0 0 100"
+
 
 		// weapon selection colors
 		"SelectionNumberFg"		"251 235 202 255"
