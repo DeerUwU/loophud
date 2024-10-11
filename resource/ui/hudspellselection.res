@@ -4,10 +4,10 @@
 	{
 		"xpos"			"130"
 
-		"if_killstreak_visible"
-		{
-			"xpos"			"160"
-		}
+		// "if_killstreak_visible"
+		// {
+		// 	"xpos"			"160"
+		// }
 	}
 			
 	"ItemEffectMeterBG"
@@ -20,22 +20,20 @@
 		"ypos_minbad"	"10"
 		"wide"			"80"
 		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"visible_minbad"	"0"
 		"image"			"../hud/ammo_blue_bg"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"				
+		"teambg_3"		"../hud/ammo_blue_bg"			
 	}
 	
 	"Spellbook"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Spellbook"
-		"xpos"			"10"
+		"xpos"			"60"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"64"
@@ -51,10 +49,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
-		"xpos"			"16"
+		"xpos"			"66"
 		"ypos"			"15"
 		"xpos_minbad"	"16"
-		"ypos_minbad"	"35"
 		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
@@ -72,8 +69,8 @@
 		"font"			"Default"
 		"labelText"		"%actiontext%"
 		"textAlignment" "west"
-		"xpos"			"18"
-		"ypos"			"48"
+		"xpos"			"78"
+		"ypos"			"42"
 		"wide"			"100"
 		"tall"			"10"
 		"fgcolor"		"tanlight"
@@ -102,11 +99,9 @@
 		"font"			"HudFontMediumBigBold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"47"
+		"xpos"			"91"
 		"ypos"			"18"
-		"xpos_minbad"	"47"
-		"ypos_minbad"	"38"
-		"wide"			"20"
+		"wide"			"30"
 		"tall"			"20"
 		"fgcolor"		"0 0 0 255"
 	}
@@ -118,11 +113,9 @@
 		"font"			"HudFontMediumBigBold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"46"
+		"xpos"			"90"
 		"ypos"			"17"
-		"xpos_minbad"	"46"
-		"ypos_minbad"	"37"
-		"wide"			"20"
+		"wide"			"30"
 		"tall"			"19"
 		"fgcolor"		"tanlight"
 	}
