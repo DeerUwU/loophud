@@ -504,57 +504,57 @@ Scheme
 	{
 		"8"
 		{
-			"font" "resource/fonts/Blank.otf"
+			"font" "resource/fonts/blank.otf"
 			"name" "Blank"
 		}
 		"9"
 		{
-			"font" "resource/fonts/Blocks.ttf"
+			"font" "resource/fonts/blocks.ttf"
 			"name" "Blocks"
 		}
 
-		"10"
+		"A"
 		{
-			"font" "resource/fonts/IBMPlexMono-Regular.ttf"
+			"font" "resource/fonts/ibmplexmono-regular.ttf"
 			"name" "IBM Plex Mono"
 		}
 
-		"11"
+		"B"
 		{
-			"font" "resource/fonts/IBMPlexMono-Medium.ttf"
+			"font" "resource/fonts/ibmplexmono-medium.ttf"
 			"name" "IBM Plex Mono Medium"
 		}
-		"12"
+		"C"
 		{
-			"font" "resource/fonts/IBMPlexMono-SemiBold.ttf"
+			"font" "resource/fonts/ibmplexmono-semibold.ttf"
 			"name" "IBM Plex Mono SemiBold"
 		}
 
-		"13"
+		"D"
 		{
-			"font" "resource/fonts/FuturaCyrillicBook.ttf"
+			"font" "resource/fonts/futuracyrillicbook.ttf"
 			"name" "Futura Cyrillic Book"
 		}
-		"14"
+		"E"
 		{
-			"font" "resource/fonts/FuturaCyrillicDemi.ttf"
+			"font" "resource/fonts/futuracyrillicdemi.ttf"
 			"name" "Futura Cyrillic Demi"
 		}
-		"15"
+		"F"
 		{
-			"font" "resource/fonts/FuturaCyrillicHeavy.ttf"
+			"font" "resource/fonts/futuracyrillicheavy.ttf"
 			"name" "Futura Cyrillic Heavy"
 		}
-		"16"
+		"G"
 		{
-			"font" "resource/fonts/FuturaCyrillicExtraBold.ttf"
+			"font" "resource/fonts/futuracyrillicextrabold.ttf"
 			"name" "Futura Cyrillic Extra Bold"
 		}
-		"17"
+		"H"
 		{
-			"font" "resource/fonts/FuturaCyrillicExtraBoldOL.ttf"
+			"font" "resource/fonts/futuracyrillicextraboldol.ttf"
 			"name" "Futura Cyrillic Extra Bold OL"
-			"range"			"0x0000 0x007F"
+			"range"	"0x0000 0x007F"
 		}
 	}
 }

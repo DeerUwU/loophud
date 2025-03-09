@@ -14,12 +14,14 @@ Scheme
 
 		"loop_offwhite"			"252 231 216 255"
 
-		"loop_black"			"22 10 7 255"
+		"loop_black"			"18 15 13 255"
+		// old, its more of a brown
+		//"loop_black"			"22 10 7 255"
 
 		//different opacity levels
-		"loop_black_196"		"0 0 0 196"
-		"loop_black_128"		"0 0 0 128"
-		"loop_black_64"			"0 0 0 64"
+		"loop_black_196"		"18 15 13 196"
+		"loop_black_128"		"18 15 13 128"
+		"loop_black_64"			"18 15 13 64"
 
 		"loop_primary_196"		"241 102  24 196"
 		"loop_primary_128"		"241 102  24 128"
@@ -42,14 +44,14 @@ Scheme
 		// "loop_stats_8"				"133 113 216 255"
 		// "loop_stats_9"				"86 145 255 255"
  
-		"loop_stats_1"				"241 102 24 255"
-		"loop_stats_2"				"228 96 23 255"
-		"loop_stats_3"				"214 90 21 255"
-		"loop_stats_4"				"198 84 20 255"
-		"loop_stats_5"				"181 76 18 255"
-		"loop_stats_6"				"162 68 17 255"
-		"loop_stats_7"				"138 58 15 255"
-		"loop_stats_8"				"109 46 13 255"
-		"loop_stats_9"				"62 26 11 255"
+		"loop_stats_1"				"24 227 241 255"
+		"loop_stats_2"				"23 218 228 255"
+		"loop_stats_3"				"21 208 214 255"
+		"loop_stats_4"				"20 198 198 255"
+		"loop_stats_5"				"18 181 167 255"
+		"loop_stats_6"				"17 162 162 255"
+		"loop_stats_7"				"15 138 138 255"
+		"loop_stats_8"				"13 109 109 255"
+		"loop_stats_9"				"11 60 62 255"
 	}
 }

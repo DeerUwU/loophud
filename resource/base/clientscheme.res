@@ -488,7 +488,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -568,65 +568,65 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"22"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Arial"
-				"tall"		"12"
+				"name"			"Arial"
+				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
 		}
 
 
-		"DefaultVerySmall"
+		"DefaultVerySmall" // hardcoded for sliders
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Futura Cyrillic Demi"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Futura Cyrillic Demi"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Futura Cyrillic Demi"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Futura Cyrillic Demi"
+				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"16"
+				"name"		"Futura Cyrillic Demi"
+				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -669,7 +669,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"30"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"

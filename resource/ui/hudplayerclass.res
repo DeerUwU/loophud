@@ -17,7 +17,20 @@
 		"enabled"		"1"		
 	}
 
-
+	"health_bg" // visible is commented out for the customization menu
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"health_bg"
+		"xpos"			"cs-2-20"
+		"ypos"			"rs1-16"	
+		"zpos"			"-6"
+		"wide"			"150"
+		"tall"			"75"
+		"visible"		"1"
+		"scaleImage"	"1"	
+		"proportionaltoparent"	"1"
+		"image"			"replay/thumbnails/loophud_ui/hudplayerclass/health_bg"
+	}
 	"classimage_bg" // visible is commented out for the customization menu
 	{
 		"ControlName"	"CTFImagePanel"

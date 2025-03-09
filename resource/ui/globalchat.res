@@ -15,9 +15,9 @@
 		"mouseinputenabled"		"1"
 		"border"		"QuickplayBorder"
 
-		"log_font_small"			"Minicom-Medium-24"
-		"log_font_medium"			"Minicom-Medium-24"
-		"log_font_large"			"Minicom-Medium-24"
+		"log_font_small"			"Minicom-Medium-10"
+		"log_font_medium"			"Minicom-Medium-10"
+		"log_font_large"			"Minicom-Medium-10"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"

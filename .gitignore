@@ -1,3 +1,4 @@
 # TF2 general mod gitignore
-
+*.png
+*.jpg
 sound/sound.cache

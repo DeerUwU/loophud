@@ -431,7 +431,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"loop_black"
+			"color"					"23 20 17 255"
 			
 			"image"					"replay/thumbnails/loophud_ui/borders/noise_basic"
 			

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/loophud_ui/hudplayerclass/health_bg_low"
+	
+	"$vertexcolor"		"1"
+	"$no_fullbright"	"1"
+	"$vertexalpha"		"1"
+	"$ignorez"			"1"
+	"$translucent" 		"1"
+}

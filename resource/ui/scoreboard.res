@@ -5,21 +5,22 @@
 		"ControlName"	"CTFClientScoreBoardDialog"
 		"fieldName"		"scoreinfo"
 		"xpos"			"cs-0.5"
-		"ypos"			"31"
+		"ypos"			"-10"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"medal_width"		"20"
-		"avatar_width"		"60"
-		"spacer"			"4"
-		"name_width"		"300"
-		"nemesis_width"		"25"
-		"class_width"		"25"
-		"score_width"		"30"
-		"ping_width"		"25"
-		"killstreak_width"	"15"
-		"killstreak_image_width" "15"
+		"medal_width"			"28"
+		"medal_column_width" 	"20"
+		"avatar_width"			"26"
+		"spacer"				"2"
+		"name_width"			"300"
+		"nemesis_width"			"20"
+		"class_width"			"20"
+		"score_width"			"25"
+		"ping_width"			"20"
+		"killstreak_width"		"15"
+		"killstreak_image_width" "10"
 	}
 
 	"BluePlayerList"
@@ -37,8 +38,7 @@
 		"linespacing"	"18"
 		"linegap"		"2"
 		"fgcolor"		"blue"
-		// "font"			"futura-demi-20"
-		//"show_columns"	"1"
+		"show_columns"	"0"
 		
 		if_mvm
 		{
@@ -57,10 +57,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
-		"linespacing"	"18"
+		"linespacing"	"16"
 		"linegap"		"2"
 		"fgcolor"		"red"
-		//"show_columns"	"1"
+		"show_columns"	"0"
 
  		if_mvm
  		{

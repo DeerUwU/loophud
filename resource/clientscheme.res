@@ -45,7 +45,7 @@ Scheme
 		ScrollBarSlider.BgColor				"loop_primary_dark"
 		ScrollBarSlider.FgColor				"loop_primary"		// handle with which the slider is grabbed
 
-		ScrollBar.Wide						5
+		ScrollBar.Wide						"5"
 		
 		Slider.NobColor				"loop_primary"		
 		Slider.TextColor			"loop_offwhite"
@@ -54,12 +54,14 @@ Scheme
         Slider.DisabledTextColor2	"Blank"
 
 
-		SectionedListPanel.HeaderTextColor	"loop_primary"
-		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"loop_primary"
-		SectionedListPanel.BrightTextColor	"loop_primary"
-		SectionedListPanel.BgColor			"TransparentLightBlack"
+		// scoreboard player lists
+		SectionedListPanel.Font							"futura-demi-40" // ?
+		SectionedListPanel.HeaderTextColor				"loop_primary"
+		SectionedListPanel.HeaderBgColor				"Blank"
+		SectionedListPanel.DividerColor					"Black"
+		SectionedListPanel.TextColor					"loop_primary"
+		SectionedListPanel.BrightTextColor				"loop_primary"
+		SectionedListPanel.BgColor						"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor			"loop_black"
 		SectionedListPanel.SelectedBgColor				"loop_primary"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"loop_black"
@@ -86,58 +88,58 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura Cyrillic Demi"
+				"name"		"Futura Cyrillic Book"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		"Futura Cyrillic Demi"
+				"name"		"Futura Cyrillic Book"
 				"tall"		"13"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"		"Futura Cyrillic Demi"
+				"name"		"Futura Cyrillic Book"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Futura Cyrillic Demi"
+				"name"		"Futura Cyrillic Book"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Futura Cyrillic Demi"
-				"tall"		"24"
+				"name"		"Futura Cyrillic Book"
+				"tall"		"25"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"			"Futura Cyrillic Book"
+				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
-				"tall"		"12"
+				"name"			"Futura Cyrillic Book"
+				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -600,13 +602,22 @@ Scheme
         "HudFontMediumSecondary"
 		{
 			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
+            {
+                "name"        "TF2 Secondary"
+                "tall"        "24"
+                "weight"    "500"
+                "yres"        "1 1199"
+                "additive"    "0"
+                "antialias" "1"
+            }
+            "2" // Misyl: Proportional
+            {
+                "name"        "TF2 Secondary"
+                "tall"        "10"
+                "weight"    "500"
+                "additive"    "0"
+                "antialias" "1"
+            }
 		}
 		
 		
@@ -1018,7 +1029,7 @@ Scheme
 			"5"
 			{
 				"name"		"TF2"
-				"tall"		"52"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"

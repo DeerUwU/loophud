@@ -66,8 +66,8 @@ Scheme
 		Button.FocusBorderColor			"TransparentBlack"
 		Button.DisabledFgColor1			"loop_black"
 
-		PageTab.selectedcolor		"loop_primary"
-		PageTab.unselectedcolor		"loop_primary_dark"
+		PageTab.selectedcolor			"loop_primary"
+		PageTab.unselectedcolor			"loop_primary_dark"
 		
 		CheckButton.TextColor			"loop_offwhite"
 		CheckButton.SelectedTextColor	"loop_offwhite"
@@ -110,7 +110,7 @@ Scheme
 		MainMenu.ArmedTextColor		"117 107 94 255"
 		MainMenu.Inset				"32"
 		
-		Menu.TextInset					"6"
+		Menu.TextInset			"6"
 		Menu.FgColor			"loop_offwhite"
 		Menu.BgColor			"ListBG"
 		Menu.ArmedFgColor		"TFTextBright"
@@ -127,17 +127,19 @@ Scheme
 		ScrollBarSlider.BgColor				"loop_primary_dark"
 		ScrollBarSlider.FgColor				"loop_primary"		// handle with which the slider is grabbed
 
-		ScrollBar.Wide						13
+		ScrollBar.Wide						"5"
 		
-		Slider.NobColor				"loop_primary"		
-		Slider.TextColor			"loop_offwhite"
-		Slider.TrackColor			"loop_primary_dark"
-		Slider.DisabledTextColor1	"loop_primary_dark"
-        Slider.DisabledTextColor2	"Blank"
+		Slider.NobColor						"loop_primary"		
+		Slider.TextColor					"loop_offwhite"
+		Slider.TrackColor					"loop_primary_dark"
+		Slider.DisabledTextColor1			"loop_primary_dark"
+        Slider.DisabledTextColor2			"Blank"
 		
 		TextEntry.TextColor			        "loop_offwhite"
 		TextEntry.DisabledTextColor	        "TFTextMedium"
 		TextEntry.SelectedBgColor	        "loop_primary"
+		TextEntry.FocusEdgeColor			"loop_primary"
+		TextEntry.CursorColor				"loop_primary"
 	}
 	
 	Fonts
@@ -146,17 +148,17 @@ Scheme
 		{
 			"1"
 			{
-				"name" "IBM Plex Mono"
-				"tall" "22"
-				"weight" "900"
+				"name" 		"IBM Plex Mono"
+				"tall" 		"22"
+				"weight" 	"200"
 				"antialias" "1"
-				"yres"			"480 1079"
+				"yres"		"480 1079"
 			}
 			"2"
 			{
-				"name" "IBM Plex Mono" //.... (Font Type) Comic Sans MS
-				"tall" "26"  //............. (Font Size)
-				// "weight" "900" //..................... (For adjusting bold, 900 is bold, 0 - 200 regular)
+				"name" 		"IBM Plex Mono" //.... (Font Type) Comic Sans MS
+				"tall" 		"26"  //............. (Font Size)
+				"weight" 	"200" //..................... (For adjusting bold, 900 is bold, 0 - 200 regular)
 				"antialias" "1"
 			}
 			

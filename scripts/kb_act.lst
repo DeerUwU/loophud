@@ -6,7 +6,7 @@
 "+mb"			"Move Backward"
 "+mr"			"Move Right"
 "blank"			"=========================="
-"blank"			"LOOPHUD"
+"blank"			"LOOPHUD EXTRAS"
 "blank"			"=========================="
 "kill"							"Killbind"
 "explode"						"Explode"
@@ -14,7 +14,7 @@
 "dh_toggle_viewmodel"			"Toggle Viewmodel"
 "hud_reloadscheme"				"Reload Hud"
 "snd_restart"					"Restart Sound"
-"dh_voicetoggle"				"Use Voice Toggle"
+//"dh_voicetoggle"				"Use Voice Toggle"
 "+left"							"Rotate Left"
 "+right"						"Rotate Right"
 

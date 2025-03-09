@@ -11,7 +11,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"settitlebarvisible"	"0"
-		"paintBackground"	"0"
+		"paintBackground"		"0"
 	}
 	"bg_modulate"
 	{
@@ -112,6 +112,18 @@
 			"wide"		"5"
 		}
 
+		"UpButton"
+		{
+			"ControlName"						"Button"
+			"FieldName"							"UpButton"
+			"visible"							"0"
+		}
+		"DownButton"
+		{
+			"ControlName"						"Button"
+			"FieldName"							"DownButton"
+			"visible"							"0"
+		}
 	}
 
 	"HTMLMessage"
@@ -147,12 +159,17 @@
 		"command"		"okay"
 		"font"			"futura-heavy-20"
 
+		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick_small.wav"
+
 		"defaultFgColor_override"	"loop_primary"
 		"armedfgcolor_override"		"loop_black"
 		"defaultBgColor_override"	"loop_black"
 		"armedBgColor_override"		"loop_primary"
 
-		"default"		"1"
+		"default"				"1"
+		"paintBackgroundType"	"0"
+		"roundedcorners"		"0"
 	}
 					
 	

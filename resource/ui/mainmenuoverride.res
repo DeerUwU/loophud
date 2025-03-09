@@ -161,7 +161,7 @@
 		"zpos"			"-999"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
+		"visible"		"0"
 		"mouseinputenabled"	"0"
 
 		"SubButton"
@@ -183,8 +183,8 @@
 			"paintborder"		"0"
 			"scaleImage"		"1"
 
-			"inactiveimage"		"replay/thumbnails/loophud/gradient"
-			"activeimage"		"replay/thumbnails/loophud/gradient"
+			"inactiveimage"		"replay/thumbnails/loophud/gradient_desaturated"
+			"activeimage"		"replay/thumbnails/loophud/gradient_desaturated"
 		}
 	}
 
@@ -198,7 +198,7 @@
 		"zpos"			"-999"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
+		"visible"		"0"
         "enabled"		"1"
 
 		"SubImage"

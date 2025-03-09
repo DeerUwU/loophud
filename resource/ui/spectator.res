@@ -9,20 +9,20 @@
 		"enabled"		"1"
 	}
 
-	"freezepanel_frame"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"freezepanel_frame"
-		"wide"			"f0"
-		"tall"			"480"
-		"zpos"			"-10"
-		"scaleImage"	"1"
-		"visible"		"1"
-		"drawcolor"		"loop_black"
-		"image"			"replay/thumbnails/loophud_ui/killcam_frame"
+	// "freezepanel_frame"
+	// {
+	// 	"ControlName"	"ImagePanel"
+	// 	"fieldName"		"freezepanel_frame"
+	// 	"wide"			"f0"
+	// 	"tall"			"480"
+	// 	"zpos"			"-10"
+	// 	"scaleImage"	"1"
+	// 	"visible"		"1"
+	// 	"drawcolor"		"loop_black"
+	// 	"image"			"replay/thumbnails/loophud_ui/killcam_frame"
 
-		"proportionaltoparent"	"0"
-	}
+	// 	"proportionaltoparent"	"0"
+	// }
 
 
 

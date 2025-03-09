@@ -96,8 +96,7 @@
 			"actionsignallevel"	"2"
 			"roundedcorners"	"0"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_depressed"	"UI/buttonclick_small.wav"
 
 			"image_drawcolor"	"loop_secondary"
 			"image_armedcolor"	"loop_secondary"
@@ -572,7 +571,7 @@
 			"paintBackground"	"0"
 
 			"sound_armed"		"UI/buttonrollover.wav"
-			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_depressed"	"UI/buttonclick_small.wav"
 
 			"border_default"	"quit_default"
 			"border_armed"		"quit_armed"
@@ -600,7 +599,7 @@
 			"paintBackground"	"0"
 
 			"sound_armed"		"UI/buttonrollover.wav"
-			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_depressed"	"UI/buttonclick_small.wav"
 
 			"border_default"	"quit_default"
 			"border_armed"		"quit_armed"
@@ -687,7 +686,7 @@
 			"paintBackground"	"0"
 
 			"sound_armed"		"UI/buttonrollover.wav"
-			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_depressed"	"UI/buttonclick_small.wav"
 
 			"border"			"find_game_default"
 			"border_default"	"find_game_default"

@@ -1,0 +1,11 @@
+"Modulate"
+{
+	"$basetexture" "vgui/replay/thumbnails/loophud/gradient_desaturated"
+	
+	"$vertexcolor"		"1"
+	"$no_fullbright"	"1"
+	"$vertexalpha"		"1"
+	"$ignorez"			"1"
+	"$translucent" 		"1"
+	"$additive" 		"1"
+}

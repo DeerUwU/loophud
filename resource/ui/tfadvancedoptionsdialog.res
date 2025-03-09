@@ -2,14 +2,14 @@
 {
 	"TFAdvancedOptionsDialog"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"TFAdvancedOptionsDialog"
-		"xpos"		"c-250"
-		"ypos"		"90"
-		"wide"		"500"
-		"tall"		"480"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"TFAdvancedOptionsDialog"
+		"xpos"					"c-250"
+		"ypos"					"90"
+		"wide"					"500"
+		"tall"					"480"
+		"visible"				"1"
+		"enabled"				"1"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	""
 		"paintborder"			"1"
@@ -20,7 +20,36 @@
 		"control_w"			"500"
 		"control_h"			"25"
 		"slider_w"			"500"
-		"slider_h"			"25"
+		"slider_h"			"30" // sliders for cvars
+
+		"ScrollBar"
+		{
+			"FieldName"		"ScrollBar"
+			"xpos"			"rs1+1"
+			"ypos"			"0"
+			"tall"			"f0"
+			"wide"			"5" // This gets slammed from client schme.  GG.
+			"zpos"			"1"
+			"nobuttons"		"1"
+			"proportionaltoparent"	"1"
+
+			"Slider"
+			{
+				"fgcolor_override"	"loop_primary"
+			}      
+			"UpButton"
+			{
+				"ControlName"	"Button"
+				"FieldName"		"UpButton"
+				"visible"		"0"
+			}
+			"DownButton"
+			{
+				"ControlName"	"Button"
+				"FieldName"		"DownButton"
+				"visible"		"0"
+			}
+		}
 	}
 	"OrangeBorder"
 	{
